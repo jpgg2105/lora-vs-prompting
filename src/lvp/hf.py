@@ -18,8 +18,11 @@ LORA = {"r": 16, "lora_alpha": 32, "lora_dropout": 0.05,
 
 
 def _dtype():
+    """bfloat16 only on GPUs with native support (Ampere or newer). A T4 reports bf16 as supported
+    but emulates it, which is slow, so it gets float16."""
     import torch
-    return torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
+    native = torch.cuda.get_device_capability()[0] >= 8
+    return torch.bfloat16 if native and torch.cuda.is_bf16_supported() else torch.float16
 
 
 def load(model_name: str = MODEL):
@@ -100,8 +103,11 @@ def train_lora(pool: list[dict], out_dir: Path, seed: int = 13, model_name: str 
     model = get_peft_model(model, LoraConfig(task_type="CAUSAL_LM", **LORA))
     trainable = sum(p.numel() for p in model.parameters() if p.requires_grad)
     bf16 = _dtype() == torch.bfloat16
+    import math
+    total_steps = math.ceil(len(pool) / 16) * EPOCHS[len(pool)]
     args = TrainingArguments(output_dir=str(out_dir), per_device_train_batch_size=8, gradient_accumulation_steps=2,
-                             num_train_epochs=EPOCHS[len(pool)], learning_rate=2e-4, lr_scheduler_type="cosine", warmup_ratio=0.05,
+                             num_train_epochs=EPOCHS[len(pool)], learning_rate=2e-4, lr_scheduler_type="cosine",
+                             warmup_steps=max(1, round(0.05 * total_steps)),
                              logging_steps=10, save_strategy="no", report_to="none", seed=seed, bf16=bf16, fp16=not bf16,
                              remove_unused_columns=False)
     trainer = Trainer(model=model, args=args, train_dataset=_SFT(tok, pool), data_collator=_collate(tok.pad_token_id))
