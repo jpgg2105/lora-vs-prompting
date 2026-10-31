@@ -33,7 +33,10 @@ def load(model_name: str = MODEL):
     tok.padding_side = "left"
     if tok.pad_token is None:
         tok.pad_token = tok.eos_token
-    model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=_dtype(), device_map="cuda")
+    try:
+        model = AutoModelForCausalLM.from_pretrained(model_name, dtype=_dtype(), device_map="cuda")
+    except TypeError:  # transformers < 4.56 calls it torch_dtype
+        model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=_dtype(), device_map="cuda")
     model.generation_config.pad_token_id = tok.pad_token_id
     return model, tok
 
