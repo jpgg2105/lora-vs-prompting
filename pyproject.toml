@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lora-vs-prompting"
+version = "0.1.0"
+description = "When does LoRA fine-tuning of a small model beat few-shot prompting? A learning curve on structured extraction."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+gemini = ["openai>=1.30"]
+gpu = ["transformers>=4.45", "peft>=0.13", "accelerate>=0.34"]   # torch comes with Colab
+dev = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
