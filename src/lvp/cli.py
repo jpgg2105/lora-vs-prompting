@@ -60,8 +60,11 @@ def cmd_gpu(quick: bool) -> None:
             model, tok, tmeta = hf.train_lora(pool, RESULTS / "tmp", seed=seed)
             replies, meta = hf.generate(model, tok, [sft_messages(ex["text"]) for ex in test], batch_size=16)
             hf.save_preds(out, ids, replies, {**meta, **tmeta, **env, "method": "qwen-lora", "pool": n, "seed": seed, "lora": hf.LORA})
-            del model
+            del model, tok
+            import gc
+
             import torch
+            gc.collect()
             torch.cuda.empty_cache()
     print("\nDone. Download the results folder (the notebook's last cell zips it).")
 
