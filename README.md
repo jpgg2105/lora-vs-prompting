@@ -5,7 +5,7 @@
 
 ## Headline result
 
-- With 100 labelled examples, few-shot prompting of Gemini 3.5 Flash-Lite won by more than 20
+- With 100 labeled examples, few-shot prompting of Gemini 3.5 Flash-Lite won by more than 20
   points: 55% of records exactly right against 32% for Qwen2.5-1.5B fine-tuned with LoRA (mean of 3 seeds).
 - With 2,000 examples, the fine-tuned 1.5B model was within noise of it on exact records (64% vs 66%;
   the interval still allows a 7-point gap) and on intent accuracy, but 5 points behind on slot F1.
@@ -49,7 +49,7 @@ contains the smaller ones) and 300 test utterances from MASSIVE's test split.
 
 **Same data for every method.** At each pool size, the fine-tuned model trains on the pool, and the
 few-shot prompts get the 10 pool examples most similar to the test utterance (BM25), along with the
-full lists of intents and slot types. So the x-axis is "labelled examples you have", for both.
+full lists of intents and slot types. So the x-axis is "labeled examples you have", for both.
 
 **Methods**
 
@@ -78,7 +78,7 @@ method decodes greedily.
 ### Changes to the plan, made before running
 
 The first draft left the dataset open ("name, date, amount, category"); MASSIVE was chosen for its
-licence, its size and its human-labelled spans. The draft planned at least 300 test documents; the
+license, its size and its human-labeled spans. The draft planned at least 300 test documents; the
 final set is exactly 300, which keeps the API baseline at 900 free-tier calls. Hypotheses are unchanged.
 
 ## Run it

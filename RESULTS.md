@@ -7,7 +7,7 @@ every prediction is in `results/preds/`, scores in `results/scores.json`, tables
 
 ## The short version
 
-- **With 100 labelled examples, prompting the large model wins easily.** Gemini 3.5 Flash-Lite with
+- **With 100 labeled examples, prompting the large model wins easily.** Gemini 3.5 Flash-Lite with
   10 retrieved examples got 55% of records exactly right; Qwen2.5-1.5B fine-tuned with LoRA on the
   same 100 got 32% (three seeds: 33, 31, 32). The gap is 22 points [16, 28] against the
   seed-13 run (paired), 23 against the three-seed mean.
@@ -36,7 +36,7 @@ every prediction is in `results/preds/`, scores in `results/scores.json`, tables
 
 ## Learning curve
 
-Exact record match, 300 test utterances. The pool is the labelled data available: LoRA trains on
+Exact record match, 300 test utterances. The pool is the labeled data available: LoRA trains on
 it, few-shot prompts retrieve their 10 examples from it.
 
 | Method | 0 | 100 | 500 | 2,000 |
@@ -80,7 +80,7 @@ the API ran on the free tier; the token counts are the cost driver.
 ## Limits
 
 - One task (short commands with short spans), one small model, one API model. MASSIVE intents are
-  well-defined labels; open-ended extraction would favour the larger model more.
+  well-defined labels; open-ended extraction would favor the larger model more.
 - One seed for the 500 and 2,000 LoRA runs; the three seeds at 100 varied by ±1 point.
 - LoRA settings were fixed before running and not tuned; tuning would likely help LoRA.
 - The API model is the free Flash-Lite, not the largest available.
