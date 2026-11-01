@@ -5,10 +5,10 @@
 
 ## Headline result
 
-- With 100 labelled examples, few-shot prompting of Gemini 3.5 Flash-Lite won: 55% of records
-  exactly right against 32% for Qwen2.5-1.5B fine-tuned with LoRA.
-- With 2,000 examples, the fine-tuned 1.5B model caught up on exact records (64% vs 66%, within
-  noise) and intent accuracy, while staying 5 points behind on slot F1.
+- With 100 labelled examples, few-shot prompting of Gemini 3.5 Flash-Lite won by more than 20
+  points: 55% of records exactly right against 32% for Qwen2.5-1.5B fine-tuned with LoRA (mean of 3 seeds).
+- With 2,000 examples, the fine-tuned 1.5B model was within noise of it on exact records (64% vs 66%;
+  the interval still allows a 7-point gap) and on intent accuracy, but 5 points behind on slot F1.
 - On the same small model, LoRA beat few-shot prompting by 12 to 15 points from 500 examples up.
 - Format was never the bottleneck (valid JSON 99.7–100% everywhere); with 100 examples the
   fine-tuned model invented labels it had never seen.

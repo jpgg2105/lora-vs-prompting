@@ -9,9 +9,11 @@ every prediction is in `results/preds/`, scores in `results/scores.json`, tables
 
 - **With 100 labelled examples, prompting the large model wins easily.** Gemini 3.5 Flash-Lite with
   10 retrieved examples got 55% of records exactly right; Qwen2.5-1.5B fine-tuned with LoRA on the
-  same 100 got 32% (three seeds: 33, 31, 32). The gap is 22 points [16, 28].
-- **With 2,000 examples, the fine-tuned 1.5B model catches up on the record, not on every field.**
-  LoRA 64% vs Gemini 66% exact: −2 points [−7, +3], within noise, and the same intent accuracy (86%).
+  same 100 got 32% (three seeds: 33, 31, 32). The gap is 22 points [16, 28] against the
+  seed-13 run (paired), 23 against the three-seed mean.
+- **With 2,000 examples, the fine-tuned 1.5B model comes close on the record, not on every field.**
+  LoRA 64% vs Gemini 66% exact: −2 points [−7, +3]. That is within noise, but a gap of up to 7 points
+  isn't ruled out. Intent accuracy is the same (86%).
   On slot extraction Gemini stays ahead: F1 0.78 vs 0.72, −5 points [−10, −1].
 - **On the same small model, fine-tuning beats prompting once there is data.** LoRA vs the same Qwen
   with 10 retrieved examples: a tie at 100 examples (+2 [−4, +7]), then +12 [+6, +17] at 500 and
@@ -20,7 +22,7 @@ every prediction is in `results/preds/`, scores in `results/scores.json`, tables
   went wrong at 100 examples was labels: the fine-tuned model invented intents and slot types
   ("recipe", "currency"), because its prompt carries no label list and 22 of the 60 intents never
   appear in its 100 training examples.
-- **The fine-tuned model is far cheaper to run.** 31 input tokens per document against about 900 for
+- **The fine-tuned model is cheaper to run.** 31 input tokens per document against about 900 for
   the few-shot prompts (29× fewer), 190 GPU-seconds per 1,000 documents on a T4 against 355 for the
   same model prompted, and 3 minutes of training for the 2,000-example run.
 
@@ -29,7 +31,7 @@ every prediction is in `results/preds/`, scores in `results/scores.json`, tables
 | | Hypothesis | Result |
 |---|---|---|
 | H1 | With about 100 examples, few-shot prompting of a frontier model wins | **True.** 55% vs 32% exact record; 85% vs 61% intent accuracy. |
-| H2 | With about 2,000 examples, the LoRA-tuned small model matches or beats it on field accuracy and valid-JSON rate | **Mostly true.** Matches on exact record (−2, within noise), intent (−0.3) and valid JSON (100% vs 99.7%); still behind on slot F1 (−5, significant). The API model is Flash-Lite, not a frontier model, so this is a bar a larger model would raise. |
+| H2 | With about 2,000 examples, the LoRA-tuned small model matches or beats it on field accuracy and valid-JSON rate | **Partly true; fails on slot F1.** No significant difference on exact record (−2 [−7, +3]), intent (−0.3) or valid JSON (100% vs 99.7%); behind on slot F1 (−5 [−10, −1], significant). The API model is Flash-Lite, not a frontier model, so this is a bar a larger model would raise. |
 | H3 | LoRA mainly improves format reliability before it improves field accuracy | **False.** JSON validity was near 100% from the first run. Schema compliance (known labels only) was *worse* after fine-tuning on 100 examples (70% vs 90% for the prompt) and caught up only with more data. |
 
 ## Learning curve
@@ -56,9 +58,10 @@ it, few-shot prompts retrieve their 10 examples from it.
 The few-shot prompts list all 60 intents and 55 slot types; the fine-tuned model gets a one-line
 instruction and has to learn the labels from its examples. With 100 examples it saw 38 of the 60
 intents, and 44 of the 300 test utterances need one it never saw. It filled the gaps with plausible
-inventions: 58 replies used an intent that doesn't exist (`recipe`, `qa_date`, `email_send`) and 61
-used an unknown slot type (`recipe_name`, `currency`, `definition`). The 2,000-example pool covers
-all 60 intents, and schema compliance rose to 97%.
+inventions: 58 replies used an intent that doesn't exist (`recipe`, `qa_date`, `email_send`) and 53
+replies used an unknown slot type (61 occurrences: `recipe_name`, `currency`, `definition`). These
+counts are for the seed-13 run. The 2,000-example pool covers all 60 intents, and schema compliance
+rose to 97%.
 
 The obvious next step is to give the fine-tuned model the label list too, or to constrain its
 decoding to the schema. Neither was part of the plan, so neither is tested here.
