@@ -1,0 +1,301 @@
+{"meta": {"model": "gemini-3.5-flash-lite", "reasoning_effort": "low"}}
+{"id": "17107", "reply": "{\"intent\": \"email_query\", \"slots\": {}}", "seconds": 1.6643334000837058, "usage": {"input_tokens": 809, "output_tokens": 13}}
+{"id": "8347", "reply": "{\"intent\": \"calendar_query\", \"slots\": {\"date\": \"december fourth\"}}", "seconds": 0.7317183999111876, "usage": {"input_tokens": 881, "output_tokens": 19}}
+{"id": "10217", "reply": "{\"intent\": \"cooking_recipe\", \"slots\": {\"food_type\": \"sambar\", \"app_name\": \"cookingforu\"}}", "seconds": 0.8928789999336004, "usage": {"input_tokens": 920, "output_tokens": 30}}
+{"id": "10335", "reply": "{\"intent\": \"play_game\", \"slots\": {\"game_name\": \"poker\"}}", "seconds": 0.8529680999927223, "usage": {"input_tokens": 908, "output_tokens": 20}}
+{"id": "16228", "reply": "{\"intent\": \"calendar_query\", \"slots\": {\"event_name\": \"birthday\", \"date\": \"this month\"}}", "seconds": 0.8825598999392241, "usage": {"input_tokens": 886, "output_tokens": 26}}
+{"id": "4313", "reply": "{\"intent\": \"weather_query\", \"slots\": {\"weather_descriptor\": \"rain\", \"date\": \"tomorrow\", \"place_name\": \"rome\"}}", "seconds": 0.6913889999268577, "usage": {"input_tokens": 919, "output_tokens": 33}}
+{"id": "41", "reply": "{\"intent\": \"iot_hue_lightchange\", \"slots\": {}}", "seconds": 0.6671227000188082, "usage": {"input_tokens": 871, "output_tokens": 16}}
+{"id": "1803", "reply": "{\"intent\": \"recommendation_events\", \"slots\": {\"date\": \"today\", \"sport_type\": \"premier league\"}}", "seconds": 0.6709808999439701, "usage": {"input_tokens": 885, "output_tokens": 27}}
+{"id": "14342", "reply": "{\"intent\": \"qa_stock\", \"slots\": {\"business_name\": \"hdfc\"}}", "seconds": 0.7065472999820486, "usage": {"input_tokens": 887, "output_tokens": 20}}
+{"id": "1527", "reply": "{\"intent\": \"music_likeness\", \"slots\": {}}", "seconds": 0.9839485000120476, "usage": {"input_tokens": 972, "output_tokens": 14}}
+{"id": "9394", "reply": "{\"intent\": \"play_radio\", \"slots\": {}}", "seconds": 0.7451334999641404, "usage": {"input_tokens": 882, "output_tokens": 13}}
+{"id": "10338", "reply": "{\"intent\": \"play_game\", \"slots\": {\"game_name\": \"harry potter and the chamber of secrets\"}}", "seconds": 0.6948838999960572, "usage": {"input_tokens": 921, "output_tokens": 25}}
+{"id": "16694", "reply": "{\"intent\": \"email_addcontact\", \"slots\": {\"business_name\": \"giant eagle\"}}", "seconds": 0.7185353999957442, "usage": {"input_tokens": 890, "output_tokens": 21}}
+{"id": "14315", "reply": "{\"intent\": \"general_quirky\", \"slots\": {}}", "seconds": 0.6632841000100598, "usage": {"input_tokens": 863, "output_tokens": 14}}
+{"id": "1940", "reply": "{\"intent\": \"play_music\", \"slots\": {}}", "seconds": 0.8989893000107259, "usage": {"input_tokens": 877, "output_tokens": 13}}
+{"id": "426", "reply": "{\"intent\": \"iot_wemo_on\", \"slots\": {\"device_type\": \"plug socket\"}}", "seconds": 0.7055248999968171, "usage": {"input_tokens": 887, "output_tokens": 23}}
+{"id": "13706", "reply": "{\"intent\": \"qa_definition\", \"slots\": {\"definition_word\": \"rotor\"}}", "seconds": 0.7464112000307068, "usage": {"input_tokens": 883, "output_tokens": 19}}
+{"id": "6015", "reply": "{\"intent\": \"iot_hue_lightdim\", \"slots\": {}}", "seconds": 0.7455277000553906, "usage": {"input_tokens": 864, "output_tokens": 16}}
+{"id": "12839", "reply": "{\"intent\": \"transport_query\", \"slots\": {\"place_name\": \"layfayette saint and canal\"}}", "seconds": 0.7181726000271738, "usage": {"input_tokens": 966, "output_tokens": 24}}
+{"id": "5758", "reply": "{\"intent\": \"weather_query\", \"slots\": {\"place_name\": \"capital city\"}}", "seconds": 0.6599640999920666, "usage": {"input_tokens": 919, "output_tokens": 20}}
+{"id": "10636", "reply": "{\"intent\": \"lists_createoradd\", \"slots\": {}}", "seconds": 0.5685466999420896, "usage": {"input_tokens": 897, "output_tokens": 15}}
+{"id": "14011", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"person\": \"dolly parton's\", \"event_name\": \"birthday\"}}", "seconds": 0.73485280002933, "usage": {"input_tokens": 869, "output_tokens": 30}}
+{"id": "2026", "reply": "{\"intent\": \"iot_coffee\", \"slots\": {}}", "seconds": 0.7993771999608725, "usage": {"input_tokens": 820, "output_tokens": 13}}
+{"id": "4917", "reply": "{\"intent\": \"weather_query\", \"slots\": {\"weather_descriptor\": \"temperature\"}}", "seconds": 0.8153201000532135, "usage": {"input_tokens": 891, "output_tokens": 19}}
+{"id": "15364", "reply": "{\"intent\": \"social_post\", \"slots\": {\"business_name\": \"amazon\"}}", "seconds": 0.7612199999857694, "usage": {"input_tokens": 880, "output_tokens": 19}}
+{"id": "11029", "reply": "{\"intent\": \"lists_createoradd\", \"slots\": {}}", "seconds": 0.8162807000335306, "usage": {"input_tokens": 901, "output_tokens": 15}}
+{"id": "14981", "reply": "{\"intent\": \"qa_definition\", \"slots\": {\"device_type\": \"iphone seven\"}}", "seconds": 0.947509300080128, "usage": {"input_tokens": 965, "output_tokens": 20}}
+{"id": "8110", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"event_name\": \"supervision\"}}", "seconds": 0.8491792000131682, "usage": {"input_tokens": 959, "output_tokens": 20}}
+{"id": "10960", "reply": "{\"intent\": \"lists_remove\", \"slots\": {}}", "seconds": 0.8150902000488713, "usage": {"input_tokens": 913, "output_tokens": 13}}
+{"id": "11665", "reply": "{\"intent\": \"recommendation_locations\", \"slots\": {\"business_type\": \"clothing stores\", \"place_name\": \"dress shows\"}}", "seconds": 0.6689346999628469, "usage": {"input_tokens": 928, "output_tokens": 30}}
+{"id": "1301", "reply": "{\"intent\": \"news_query\", \"slots\": {\"news_topic\": \"foreign policy of trump\"}}", "seconds": 0.8200919999508187, "usage": {"input_tokens": 904, "output_tokens": 22}}
+{"id": "8667", "reply": "{\"intent\": \"calendar_query\", \"slots\": {\"date\": \"past three months\", \"event_name\": \"meetings\", \"person\": \"mr. richards\"}}", "seconds": 0.6850445999298245, "usage": {"input_tokens": 904, "output_tokens": 36}}
+{"id": "4618", "reply": "{\"intent\": \"iot_wemo_on\", \"slots\": {\"device_type\": \"smart socket\"}}", "seconds": 0.5923920999048278, "usage": {"input_tokens": 900, "output_tokens": 23}}
+{"id": "11529", "reply": "{\"intent\": \"play_podcasts\", \"slots\": {}}", "seconds": 0.6113662000279874, "usage": {"input_tokens": 864, "output_tokens": 14}}
+{"id": "4258", "reply": "{\"intent\": \"news_query\", \"slots\": {}}", "seconds": 0.756883499911055, "usage": {"input_tokens": 856, "output_tokens": 13}}
+{"id": "13064", "reply": "{\"intent\": \"qa_definition\", \"slots\": {}}", "seconds": 0.7450182000175118, "usage": {"input_tokens": 963, "output_tokens": 13}}
+{"id": "3207", "reply": "{\"intent\": \"play_music\", \"slots\": {\"song_name\": \"poker face\", \"artist_name\": \"lady gaga\"}}", "seconds": 0.7627858999185264, "usage": {"input_tokens": 909, "output_tokens": 31}}
+{"id": "8782", "reply": "{\"intent\": \"calendar_query\", \"slots\": {\"event_name\": \"meeting\", \"timeofday\": \"afternoon\"}}", "seconds": 0.7842295999871567, "usage": {"input_tokens": 923, "output_tokens": 28}}
+{"id": "4084", "reply": "{\"intent\": \"iot_coffee\", \"slots\": {}}", "seconds": 1.0236466000787914, "usage": {"input_tokens": 824, "output_tokens": 13}}
+{"id": "10107", "reply": "{\"intent\": \"cooking_recipe\", \"slots\": {\"food_type\": \"veg pulav\"}}", "seconds": 0.809499999973923, "usage": {"input_tokens": 940, "output_tokens": 21}}
+{"id": "17138", "reply": "{\"intent\": \"email_query\", \"slots\": {}}", "seconds": 0.6923318000044674, "usage": {"input_tokens": 837, "output_tokens": 13}}
+{"id": "9669", "reply": "{\"intent\": \"play_audiobook\", \"slots\": {\"audiobook_name\": \"be more chill\", \"audiobook_author\": \"ned vizzini\"}}", "seconds": 0.8763275999808684, "usage": {"input_tokens": 896, "output_tokens": 35}}
+{"id": "5590", "reply": "{\"intent\": \"weather_query\", \"slots\": {\"weather_descriptor\": \"temperature\"}}", "seconds": 0.7377527999924496, "usage": {"input_tokens": 882, "output_tokens": 19}}
+{"id": "1007", "reply": "{\"intent\": \"play_music\", \"slots\": {\"artist_name\": \"creed\", \"music_genre\": \"rock\"}}", "seconds": 0.611211400013417, "usage": {"input_tokens": 882, "output_tokens": 28}}
+{"id": "4125", "reply": "{\"intent\": \"takeaway_query\", \"slots\": {\"food_type\": \"mexican food\"}}", "seconds": 0.6444686000468209, "usage": {"input_tokens": 925, "output_tokens": 22}}
+{"id": "9976", "reply": "{\"intent\": \"cooking_recipe\", \"slots\": {\"food_type\": \"welsh rarebit\"}}", "seconds": 0.7550572999753058, "usage": {"input_tokens": 894, "output_tokens": 22}}
+{"id": "11250", "reply": "{\"intent\": \"lists_query\", \"slots\": {\"list_name\": \"grocery\"}}", "seconds": 0.6375490999780595, "usage": {"input_tokens": 857, "output_tokens": 19}}
+{"id": "16222", "reply": "{\"intent\": \"email_querycontact\", \"slots\": {\"person\": \"mary s.\"}}", "seconds": 0.7079035999486223, "usage": {"input_tokens": 892, "output_tokens": 20}}
+{"id": "12536", "reply": "{\"intent\": \"transport_ticket\", \"slots\": {\"transport_type\": \"train\", \"place_name\": \"barcelona\"}}", "seconds": 0.6949517000466585, "usage": {"input_tokens": 1019, "output_tokens": 28}}
+{"id": "7209", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"event_name\": \"take the garbage out\", \"date\": \"tuesday\"}}", "seconds": 0.7338958999607712, "usage": {"input_tokens": 933, "output_tokens": 29}}
+{"id": "8345", "reply": "{\"intent\": \"calendar_query\", \"slots\": {\"event_name\": \"meeting\"}}", "seconds": 0.8296677999896929, "usage": {"input_tokens": 916, "output_tokens": 19}}
+{"id": "11490", "reply": "{\"intent\": \"play_podcasts\", \"slots\": {\"podcast_descriptor\": \"next show\"}}", "seconds": 0.7205460999393836, "usage": {"input_tokens": 859, "output_tokens": 21}}
+{"id": "13983", "reply": "{\"intent\": \"general_quirky\", \"slots\": {}}", "seconds": 0.7653667000122368, "usage": {"input_tokens": 881, "output_tokens": 14}}
+{"id": "1156", "reply": "{\"intent\": \"news_query\", \"slots\": {\"news_topic\": \"international women's day\"}}", "seconds": 0.7405841000145301, "usage": {"input_tokens": 869, "output_tokens": 23}}
+{"id": "13459", "reply": "{\"intent\": \"qa_maths\", \"slots\": {}}", "seconds": 0.7133201999822631, "usage": {"input_tokens": 850, "output_tokens": 14}}
+{"id": "827", "reply": "{\"intent\": \"play_music\", \"slots\": {\"artist_name\": \"bob dylan\"}}", "seconds": 0.7458663999568671, "usage": {"input_tokens": 877, "output_tokens": 21}}
+{"id": "3570", "reply": "{\"intent\": \"iot_hue_lightoff\", \"slots\": {\"house_place\": \"patio\"}}", "seconds": 0.6346980999223888, "usage": {"input_tokens": 880, "output_tokens": 23}}
+{"id": "7686", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"person\": [\"mike\", \"jack\"], \"event_name\": \"festival\"}}", "seconds": 0.8922631000168622, "usage": {"input_tokens": 962, "output_tokens": 28}}
+{"id": "16642", "reply": "{\"intent\": \"email_query\", \"slots\": {\"person\": \"shelly\"}}", "seconds": 0.6771406000480056, "usage": {"input_tokens": 909, "output_tokens": 18}}
+{"id": "14475", "reply": "{\"intent\": \"qa_stock\", \"slots\": {}}", "seconds": 0.7642363999038935, "usage": {"input_tokens": 899, "output_tokens": 13}}
+{"id": "8188", "reply": "{\"intent\": \"datetime_query\", \"slots\": {}}", "seconds": 1.0642027999274433, "usage": {"input_tokens": 874, "output_tokens": 13}}
+{"id": "3039", "reply": "{\"intent\": \"news_query\", \"slots\": {}}", "seconds": 0.8676348000299186, "usage": {"input_tokens": 878, "output_tokens": 13}}
+{"id": "6643", "reply": "{\"intent\": \"recommendation_locations\", \"slots\": {}}", "seconds": 0.7025956000434235, "usage": {"input_tokens": 884, "output_tokens": 14}}
+{"id": "10938", "reply": "{\"intent\": \"lists_createoradd\", \"slots\": {\"ingredient\": \"sugar\", \"list_name\": \"grocery\"}}", "seconds": 0.7591684000799432, "usage": {"input_tokens": 879, "output_tokens": 27}}
+{"id": "15593", "reply": "{\"intent\": \"social_post\", \"slots\": {\"media_type\": \"tweet\", \"business_name\": \"comcast\"}}", "seconds": 0.7192929000593722, "usage": {"input_tokens": 987, "output_tokens": 28}}
+{"id": "10399", "reply": "{\"intent\": \"play_game\", \"slots\": {\"game_name\": \"chess\"}}", "seconds": 0.9038785999873653, "usage": {"input_tokens": 877, "output_tokens": 19}}
+{"id": "14142", "reply": "{\"intent\": \"qa_currency\", \"slots\": {\"currency_name\": \"british pound\"}}", "seconds": 0.6435330000240356, "usage": {"input_tokens": 898, "output_tokens": 20}}
+{"id": "1247", "reply": "{\"intent\": \"takeaway_query\", \"slots\": {\"business_name\": \"mr. pizza\", \"order_type\": \"delivers\"}}", "seconds": 0.7991731999209151, "usage": {"input_tokens": 961, "output_tokens": 31}}
+{"id": "16377", "reply": "{\"intent\": \"email_sendemail\", \"slots\": {\"relation\": \"mom\"}}", "seconds": 0.6718941000290215, "usage": {"input_tokens": 911, "output_tokens": 18}}
+{"id": "12409", "reply": "{\"intent\": \"recommendation_locations\", \"slots\": {\"business_type\": \"gas station\"}}", "seconds": 0.6461793999187648, "usage": {"input_tokens": 890, "output_tokens": 21}}
+{"id": "16354", "reply": "{\"intent\": \"email_query\", \"slots\": {\"relation\": \"employer\"}}", "seconds": 1.2370436999481171, "usage": {"input_tokens": 841, "output_tokens": 17}}
+{"id": "9275", "reply": "{\"intent\": \"play_radio\", \"slots\": {\"radio_name\": \"nine hundred and ninety nine f. m.\"}}", "seconds": 0.7170006000669673, "usage": {"input_tokens": 921, "output_tokens": 27}}
+{"id": "533", "reply": "{\"intent\": \"alarm_set\", \"slots\": {\"time\": \"nine am\"}}", "seconds": 0.597890599980019, "usage": {"input_tokens": 930, "output_tokens": 18}}
+{"id": "10678", "reply": "{\"intent\": \"lists_createoradd\", \"slots\": {\"list_name\": \"expenses\"}}", "seconds": 0.7069928999990225, "usage": {"input_tokens": 890, "output_tokens": 21}}
+{"id": "158", "reply": "{\"intent\": \"iot_hue_lightdim\", \"slots\": {}}", "seconds": 0.7130786000052467, "usage": {"input_tokens": 864, "output_tokens": 16}}
+{"id": "5026", "reply": "{\"intent\": \"iot_hue_lightchange\", \"slots\": {}}", "seconds": 0.723526299931109, "usage": {"input_tokens": 859, "output_tokens": 16}}
+{"id": "10105", "reply": "{\"intent\": \"cooking_query\", \"slots\": {\"food_type\": \"steak\"}}", "seconds": 0.6542670000344515, "usage": {"input_tokens": 906, "output_tokens": 19}}
+{"id": "15670", "reply": "{\"intent\": \"social_post\", \"slots\": {\"media_type\": \"tweet\"}}", "seconds": 0.8405504999682307, "usage": {"input_tokens": 934, "output_tokens": 19}}
+{"id": "12710", "reply": "{\"intent\": \"transport_taxi\", \"slots\": {}}", "seconds": 0.690522399963811, "usage": {"input_tokens": 899, "output_tokens": 13}}
+{"id": "5574", "reply": "{\"intent\": \"iot_hue_lightup\", \"slots\": {\"house_place\": \"living room\"}}", "seconds": 0.6982599999755621, "usage": {"input_tokens": 889, "output_tokens": 23}}
+{"id": "14083", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"person\": \"jackie chan\"}}", "seconds": 0.7054954998893663, "usage": {"input_tokens": 897, "output_tokens": 20}}
+{"id": "14994", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"person\": \"denzel washington's\"}}", "seconds": 0.6906060000183061, "usage": {"input_tokens": 863, "output_tokens": 22}}
+{"id": "6958", "reply": "{\"intent\": \"calendar_remove\", \"slots\": {}}", "seconds": 0.9736331000458449, "usage": {"input_tokens": 860, "output_tokens": 13}}
+{"id": "7113", "reply": "{\"intent\": \"recommendation_events\", \"slots\": {\"place_name\": \"downtown\", \"date\": \"this weekend\"}}", "seconds": 0.7778315999312326, "usage": {"input_tokens": 836, "output_tokens": 28}}
+{"id": "7055", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"event_name\": \"meeting\", \"person\": \"matt\", \"time\": \"eleven am\", \"date\": \"thursday\"}}", "seconds": 0.6489895000122488, "usage": {"input_tokens": 1011, "output_tokens": 40}}
+{"id": "1191", "reply": "{\"intent\": \"datetime_convert\", \"slots\": {\"timeofday\": \"sunrise\", \"place_name\": [\"stockholm\", \"okinawa\"]}}", "seconds": 0.814973899978213, "usage": {"input_tokens": 904, "output_tokens": 33}}
+{"id": "16158", "reply": "{\"intent\": \"email_query\", \"slots\": {}}", "seconds": 0.7350066000362858, "usage": {"input_tokens": 833, "output_tokens": 13}}
+{"id": "8466", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"time\": \"nine am\", \"event_name\": \"meeting\", \"date\": \"wednesday\"}}", "seconds": 0.6616687000496313, "usage": {"input_tokens": 995, "output_tokens": 33}}
+{"id": "11539", "reply": "{\"intent\": \"play_podcasts\", \"slots\": {\"podcast_descriptor\": \"next\"}}", "seconds": 0.8310156000079587, "usage": {"input_tokens": 819, "output_tokens": 20}}
+{"id": "585", "reply": "{\"intent\": \"news_query\", \"slots\": {}}", "seconds": 0.9984265000093728, "usage": {"input_tokens": 833, "output_tokens": 13}}
+{"id": "12779", "reply": "{\"intent\": \"transport_taxi\", \"slots\": {\"transport_agency\": \"uber\"}}", "seconds": 1.5683840999845415, "usage": {"input_tokens": 873, "output_tokens": 19}}
+{"id": "9942", "reply": "{\"intent\": \"cooking_recipe\", \"slots\": {\"food_type\": \"red velvet cake\"}}", "seconds": 0.7066377999726683, "usage": {"input_tokens": 857, "output_tokens": 21}}
+{"id": "7477", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"date\": \"fifth march\", \"general_frequency\": \"every year\", \"event_name\": \"arrange wedding anniversary presents\"}}", "seconds": 0.8666322000790387, "usage": {"input_tokens": 963, "output_tokens": 38}}
+{"id": "5038", "reply": "{\"intent\": \"weather_query\", \"slots\": {\"date\": \"this week\"}}", "seconds": 0.6778605000581592, "usage": {"input_tokens": 881, "output_tokens": 18}}
+{"id": "6489", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {}}", "seconds": 0.5902668000198901, "usage": {"input_tokens": 880, "output_tokens": 14}}
+{"id": "5131", "reply": "{\"intent\": \"datetime_query\", \"slots\": {\"place_name\": \"sanfranscio\"}}", "seconds": 0.7927689000498503, "usage": {"input_tokens": 897, "output_tokens": 22}}
+{"id": "12866", "reply": "{\"intent\": \"transport_query\", \"slots\": {\"transport_name\": \"bagmati express\"}}", "seconds": 0.7254576999694109, "usage": {"input_tokens": 871, "output_tokens": 21}}
+{"id": "12693", "reply": "{\"intent\": \"transport_traffic\", \"slots\": {\"place_name\": \"work\"}}", "seconds": 0.7596921999938786, "usage": {"input_tokens": 891, "output_tokens": 19}}
+{"id": "7039", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"date\": \"next tuesday\", \"time\": \"eleven am\", \"event_name\": \"meeting\", \"person\": \"jesse\"}}", "seconds": 0.8159954999573529, "usage": {"input_tokens": 1054, "output_tokens": 41}}
+{"id": "10786", "reply": "{\"intent\": \"lists_remove\", \"slots\": {\"list_name\": \"activities\", \"date\": \"today\"}}", "seconds": 0.650995000032708, "usage": {"input_tokens": 886, "output_tokens": 25}}
+{"id": "7666", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"event_name\": \"meeting\", \"person\": \"tom\", \"time\": \"three\", \"date\": \"tomorrow\"}}", "seconds": 0.7160936999134719, "usage": {"input_tokens": 1051, "output_tokens": 37}}
+{"id": "15656", "reply": "{\"intent\": \"social_post\", \"slots\": {\"media_type\": \"tweet\", \"business_name\": \"suqcom\"}}", "seconds": 0.5576201999792829, "usage": {"input_tokens": 1009, "output_tokens": 29}}
+{"id": "12789", "reply": "{\"intent\": \"transport_traffic\", \"slots\": {}}", "seconds": 0.6845999000361189, "usage": {"input_tokens": 866, "output_tokens": 13}}
+{"id": "14917", "reply": "{\"intent\": \"music_query\", \"slots\": {\"artist_name\": \"mark lanegan\", \"music_album\": \"album\"}}", "seconds": 0.7246486999792978, "usage": {"input_tokens": 893, "output_tokens": 29}}
+{"id": "13150", "reply": "{\"intent\": \"cooking_recipe\", \"slots\": {\"relation\": \"wife\"}}", "seconds": 0.7045013000024483, "usage": {"input_tokens": 895, "output_tokens": 17}}
+{"id": "8394", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"general_frequency\": \"every day\", \"time\": \"noon\", \"event_name\": \"take medication\"}}", "seconds": 0.6362416999181733, "usage": {"input_tokens": 903, "output_tokens": 35}}
+{"id": "8967", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"time\": \"two days before\", \"relation\": \"wife\", \"event_name\": \"birthday\"}}", "seconds": 0.7800194000592455, "usage": {"input_tokens": 1005, "output_tokens": 33}}
+{"id": "712", "reply": "{\"intent\": \"news_query\", \"slots\": {\"media_type\": \"c. n. n.\"}}", "seconds": 0.7184791000327095, "usage": {"input_tokens": 924, "output_tokens": 24}}
+{"id": "9856", "reply": "{\"intent\": \"play_audiobook\", \"slots\": {\"audiobook_name\": \"twilight\"}}", "seconds": 0.8255253999959677, "usage": {"input_tokens": 897, "output_tokens": 22}}
+{"id": "9930", "reply": "{\"intent\": \"cooking_query\", \"slots\": {\"food_type\": \"egg\"}}", "seconds": 0.7618328999960795, "usage": {"input_tokens": 916, "output_tokens": 19}}
+{"id": "7258", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"event_name\": \"email to boss\", \"time\": \"one hour\"}}", "seconds": 1.0483374000759795, "usage": {"input_tokens": 909, "output_tokens": 28}}
+{"id": "14746", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"place_name\": \"kazakhstan\"}}", "seconds": 0.7121139999944717, "usage": {"input_tokens": 880, "output_tokens": 22}}
+{"id": "10512", "reply": "{\"intent\": \"lists_query\", \"slots\": {}}", "seconds": 0.8308876999653876, "usage": {"input_tokens": 865, "output_tokens": 13}}
+{"id": "11969", "reply": "{\"intent\": \"recommendation_events\", \"slots\": {}}", "seconds": 0.7204345000209287, "usage": {"input_tokens": 874, "output_tokens": 14}}
+{"id": "13135", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"person\": \"taylor lautner\"}}", "seconds": 0.6254949000431225, "usage": {"input_tokens": 887, "output_tokens": 21}}
+{"id": "8939", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"event_name\": \"baby shower\", \"person\": \"hayathis\"}}", "seconds": 0.6967738000676036, "usage": {"input_tokens": 884, "output_tokens": 28}}
+{"id": "12248", "reply": "{\"intent\": \"transport_taxi\", \"slots\": {\"transport_agency\": \"uber\"}}", "seconds": 0.8531098000239581, "usage": {"input_tokens": 902, "output_tokens": 19}}
+{"id": "764", "reply": "{\"intent\": \"weather_query\", \"slots\": {\"date\": \"this week\"}}", "seconds": 0.8081384999677539, "usage": {"input_tokens": 882, "output_tokens": 18}}
+{"id": "11331", "reply": "{\"intent\": \"play_podcasts\", \"slots\": {\"podcast_descriptor\": \"rock songs\"}}", "seconds": 0.655544999986887, "usage": {"input_tokens": 874, "output_tokens": 21}}
+{"id": "4882", "reply": "{\"intent\": \"datetime_query\", \"slots\": {\"place_name\": \"city\"}}", "seconds": 0.7751438999548554, "usage": {"input_tokens": 907, "output_tokens": 19}}
+{"id": "6433", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"date\": \"today\", \"event_name\": \"meeting\", \"person\": \"george\"}}", "seconds": 0.7622762999963015, "usage": {"input_tokens": 980, "output_tokens": 32}}
+{"id": "4174", "reply": "{\"intent\": \"iot_hue_lightchange\", \"slots\": {}}", "seconds": 0.7467986000701785, "usage": {"input_tokens": 866, "output_tokens": 16}}
+{"id": "9541", "reply": "{\"intent\": \"play_music\", \"slots\": {\"song_name\": \"sweet\"}}", "seconds": 0.560932100052014, "usage": {"input_tokens": 892, "output_tokens": 19}}
+{"id": "5062", "reply": "{\"intent\": \"play_music\", \"slots\": {\"music_descriptor\": \"eighties\"}}", "seconds": 0.8469544000690803, "usage": {"input_tokens": 920, "output_tokens": 20}}
+{"id": "9941", "reply": "{\"intent\": \"cooking_recipe\", \"slots\": {\"food_type\": \"butter chicken\"}}", "seconds": 0.8289303999627009, "usage": {"input_tokens": 857, "output_tokens": 20}}
+{"id": "10350", "reply": "{\"intent\": \"play_game\", \"slots\": {\"game_name\": \"racing\"}}", "seconds": 0.6765818999847397, "usage": {"input_tokens": 841, "output_tokens": 19}}
+{"id": "12999", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"person\": \"mariah carey\"}}", "seconds": 1.7825646999990568, "usage": {"input_tokens": 890, "output_tokens": 21}}
+{"id": "5158", "reply": "{\"intent\": \"play_music\", \"slots\": {\"music_album\": \"abbas\"}}", "seconds": 0.637708600028418, "usage": {"input_tokens": 895, "output_tokens": 19}}
+{"id": "3700", "reply": "{\"intent\": \"iot_hue_lightdim\", \"slots\": {}}", "seconds": 0.6833311999216676, "usage": {"input_tokens": 841, "output_tokens": 16}}
+{"id": "15942", "reply": "{\"intent\": \"email_sendemail\", \"slots\": {\"email_folder\": \"latest emails\"}}", "seconds": 1.3864311999641359, "usage": {"input_tokens": 892, "output_tokens": 21}}
+{"id": "10843", "reply": "{\"intent\": \"lists_remove\", \"slots\": {\"ingredient\": \"milk\", \"list_name\": \"grocery\"}}", "seconds": 0.7098667999962345, "usage": {"input_tokens": 868, "output_tokens": 25}}
+{"id": "13318", "reply": "{\"intent\": \"recommendation_locations\", \"slots\": {\"food_type\": \"gluten free bread\"}}", "seconds": 0.7114820000715554, "usage": {"input_tokens": 912, "output_tokens": 22}}
+{"id": "10077", "reply": "{\"intent\": \"cooking_recipe\", \"slots\": {\"meal_type\": \"dinner\", \"timeofday\": \"tonight\"}}", "seconds": 0.7368889999343082, "usage": {"input_tokens": 945, "output_tokens": 28}}
+{"id": "12150", "reply": "{\"intent\": \"transport_ticket\", \"slots\": {\"place_name\": \"paris\", \"transport_agency\": \"eurostar\", \"date\": \"this weekend\"}}", "seconds": 0.9290915000019595, "usage": {"input_tokens": 989, "output_tokens": 35}}
+{"id": "379", "reply": "{\"intent\": \"music_settings\", \"slots\": {}}", "seconds": 0.6048950999975204, "usage": {"input_tokens": 906, "output_tokens": 13}}
+{"id": "16082", "reply": "{\"intent\": \"email_sendemail\", \"slots\": {\"person\": \"peter\"}}", "seconds": 0.8699210999766365, "usage": {"input_tokens": 909, "output_tokens": 18}}
+{"id": "5955", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"place_name\": \"city\"}}", "seconds": 0.6868467999156564, "usage": {"input_tokens": 929, "output_tokens": 20}}
+{"id": "6663", "reply": "{\"intent\": \"recommendation_locations\", \"slots\": {\"place_name\": \"vacation\"}}", "seconds": 0.6878082000184804, "usage": {"input_tokens": 893, "output_tokens": 21}}
+{"id": "14597", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"place_name\": \"new york\"}}", "seconds": 0.7266336999600753, "usage": {"input_tokens": 900, "output_tokens": 21}}
+{"id": "16698", "reply": "{\"intent\": \"email_sendemail\", \"slots\": {\"relation\": \"mother\"}}", "seconds": 0.9252527999924496, "usage": {"input_tokens": 889, "output_tokens": 18}}
+{"id": "11677", "reply": "{\"intent\": \"recommendation_locations\", \"slots\": {\"business_name\": \"amazon\", \"business_type\": \"restaurants\"}}", "seconds": 0.902371299918741, "usage": {"input_tokens": 897, "output_tokens": 28}}
+{"id": "4799", "reply": "{\"intent\": \"iot_wemo_on\", \"slots\": {\"device_type\": \"wemo plug socket\"}}", "seconds": 1.492389400023967, "usage": {"input_tokens": 910, "output_tokens": 25}}
+{"id": "1786", "reply": "{\"intent\": \"iot_hue_lightoff\", \"slots\": {\"house_place\": \"master's bedroom\"}}", "seconds": 0.5816839000908658, "usage": {"input_tokens": 912, "output_tokens": 25}}
+{"id": "5347", "reply": "{\"intent\": \"play_music\", \"slots\": {\"music_genre\": \"techno\"}}", "seconds": 0.6659501000540331, "usage": {"input_tokens": 862, "output_tokens": 20}}
+{"id": "1276", "reply": "{\"intent\": \"iot_coffee\", \"slots\": {}}", "seconds": 0.7694728999631479, "usage": {"input_tokens": 841, "output_tokens": 13}}
+{"id": "6856", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"date\": \"tomorrow's\", \"event_name\": \"meeting\", \"time\": \"ten am\"}}", "seconds": 0.8220209999708459, "usage": {"input_tokens": 997, "output_tokens": 34}}
+{"id": "8043", "reply": "{\"intent\": \"calendar_query\", \"slots\": {\"event_name\": \"appointment\"}}", "seconds": 0.6726082999957725, "usage": {"input_tokens": 896, "output_tokens": 19}}
+{"id": "10099", "reply": "{\"intent\": \"cooking_recipe\", \"slots\": {\"food_type\": \"risotto\"}}", "seconds": 0.7092136000283062, "usage": {"input_tokens": 856, "output_tokens": 20}}
+{"id": "10858", "reply": "{\"intent\": \"lists_createoradd\", \"slots\": {}}", "seconds": 0.9977587000466883, "usage": {"input_tokens": 825, "output_tokens": 15}}
+{"id": "2288", "reply": "{\"intent\": \"iot_coffee\", \"slots\": {\"time\": \"six am\"}}", "seconds": 0.7092360999668017, "usage": {"input_tokens": 948, "output_tokens": 18}}
+{"id": "3320", "reply": "{\"intent\": \"iot_coffee\", \"slots\": {\"device_type\": \"coffee pot\"}}", "seconds": 0.8365524000255391, "usage": {"input_tokens": 848, "output_tokens": 20}}
+{"id": "9738", "reply": "{\"intent\": \"play_music\", \"slots\": {\"music_genre\": \"classical\"}}", "seconds": 0.6451682000188157, "usage": {"input_tokens": 873, "output_tokens": 19}}
+{"id": "281", "reply": "{\"intent\": \"qa_currency\", \"slots\": {\"currency_name\": [\"us dollar\", \"pound sterling\"]}}", "seconds": 0.823126700008288, "usage": {"input_tokens": 893, "output_tokens": 25}}
+{"id": "9629", "reply": "{\"intent\": \"play_radio\", \"slots\": {}}", "seconds": 0.6126431999728084, "usage": {"input_tokens": 890, "output_tokens": 13}}
+{"id": "10759", "reply": "{\"intent\": \"lists_query\", \"slots\": {\"list_name\": \"shopping\"}}", "seconds": 0.6636078000301495, "usage": {"input_tokens": 851, "output_tokens": 19}}
+{"id": "1108", "reply": "{\"intent\": \"play_music\", \"slots\": {\"music_genre\": \"country music\"}}", "seconds": 0.902707300032489, "usage": {"input_tokens": 869, "output_tokens": 20}}
+{"id": "3037", "reply": "{\"intent\": \"news_query\", \"slots\": {\"news_topic\": \"front page\"}}", "seconds": 0.6504055999685079, "usage": {"input_tokens": 891, "output_tokens": 20}}
+{"id": "1413", "reply": "{\"intent\": \"iot_coffee\", \"slots\": {}}", "seconds": 0.7112431999994442, "usage": {"input_tokens": 875, "output_tokens": 13}}
+{"id": "9438", "reply": "{\"intent\": \"play_music\", \"slots\": {\"music_genre\": \"rap\"}}", "seconds": 0.6932085000444204, "usage": {"input_tokens": 896, "output_tokens": 19}}
+{"id": "9678", "reply": "{\"intent\": \"play_audiobook\", \"slots\": {\"audiobook_name\": \"the giver\"}}", "seconds": 0.7045764999929816, "usage": {"input_tokens": 882, "output_tokens": 22}}
+{"id": "7971", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"time\": \"two days prior\"}}", "seconds": 0.6536667000036687, "usage": {"input_tokens": 901, "output_tokens": 19}}
+{"id": "2167", "reply": "{\"intent\": \"alarm_set\", \"slots\": {\"time\": \"half an hour\"}}", "seconds": 0.7313582999631763, "usage": {"input_tokens": 895, "output_tokens": 19}}
+{"id": "1294", "reply": "{\"intent\": \"news_query\", \"slots\": {\"news_topic\": \"academy awards\"}}", "seconds": 0.608558600069955, "usage": {"input_tokens": 886, "output_tokens": 20}}
+{"id": "9955", "reply": "{\"intent\": \"cooking_recipe\", \"slots\": {\"food_type\": \"fried chicken\"}}", "seconds": 0.7019226000411436, "usage": {"input_tokens": 901, "output_tokens": 20}}
+{"id": "2498", "reply": "{\"intent\": \"datetime_query\", \"slots\": {\"date\": \"today\"}}", "seconds": 0.612671299953945, "usage": {"input_tokens": 900, "output_tokens": 17}}
+{"id": "8251", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"date\": \"next week\", \"meal_type\": \"lunch\"}}", "seconds": 0.6107045999960974, "usage": {"input_tokens": 950, "output_tokens": 26}}
+{"id": "6710", "reply": "{\"intent\": \"general_quirky\", \"slots\": {}}", "seconds": 0.6605114999692887, "usage": {"input_tokens": 836, "output_tokens": 14}}
+{"id": "5557", "reply": "{\"intent\": \"play_music\", \"slots\": {\"music_genre\": \"reggae\"}}", "seconds": 0.6788567999610677, "usage": {"input_tokens": 878, "output_tokens": 21}}
+{"id": "8165", "reply": "{\"intent\": \"calendar_query\", \"slots\": {\"time\": \"one thousand two hundred and thirty p. m.\"}}", "seconds": 0.7608450000407174, "usage": {"input_tokens": 1014, "output_tokens": 26}}
+{"id": "0", "reply": "{\"intent\": \"alarm_set\", \"slots\": {\"time\": \"five am\", \"date\": \"this week\"}}", "seconds": 0.7529587999451905, "usage": {"input_tokens": 1005, "output_tokens": 25}}
+{"id": "3614", "reply": "{\"intent\": \"weather_query\", \"slots\": {\"weather_descriptor\": \"sunny\", \"date\": \"today\"}}", "seconds": 0.7535347000230104, "usage": {"input_tokens": 883, "output_tokens": 25}}
+{"id": "11505", "reply": "{\"intent\": \"play_podcasts\", \"slots\": {}}", "seconds": 0.7563187000341713, "usage": {"input_tokens": 874, "output_tokens": 14}}
+{"id": "13513", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {}}", "seconds": 0.7239530000369996, "usage": {"input_tokens": 877, "output_tokens": 14}}
+{"id": "63", "reply": "{\"intent\": \"alarm_query\", \"slots\": {}}", "seconds": 0.7786563000408933, "usage": {"input_tokens": 884, "output_tokens": 13}}
+{"id": "13592", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"place_name\": \"new zealand\"}}", "seconds": 0.546094199991785, "usage": {"input_tokens": 886, "output_tokens": 21}}
+{"id": "6366", "reply": "{\"intent\": \"recommendation_locations\", \"slots\": {\"place_name\": \"america\"}}", "seconds": 0.7748769999016076, "usage": {"input_tokens": 905, "output_tokens": 20}}
+{"id": "16851", "reply": "{\"intent\": \"email_query\", \"slots\": {}}", "seconds": 0.8006675000069663, "usage": {"input_tokens": 883, "output_tokens": 13}}
+{"id": "1745", "reply": "{\"intent\": \"music_likeness\", \"slots\": {}}", "seconds": 0.6513491999357939, "usage": {"input_tokens": 851, "output_tokens": 14}}
+{"id": "10333", "reply": "{\"intent\": \"play_radio\", \"slots\": {\"radio_name\": \"saga\"}}", "seconds": 0.6512275999411941, "usage": {"input_tokens": 885, "output_tokens": 19}}
+{"id": "16229", "reply": "{\"intent\": \"email_querycontact\", \"slots\": {}}", "seconds": 0.6868297000182793, "usage": {"input_tokens": 935, "output_tokens": 14}}
+{"id": "6295", "reply": "{\"intent\": \"transport_traffic\", \"slots\": {}}", "seconds": 0.6729246999602765, "usage": {"input_tokens": 899, "output_tokens": 13}}
+{"id": "9254", "reply": "{\"intent\": \"play_radio\", \"slots\": {\"radio_name\": \"nine hundred and thirty eight f. m. radio mirchi\"}}", "seconds": 0.6206276000011712, "usage": {"input_tokens": 891, "output_tokens": 30}}
+{"id": "13758", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"person\": \"marian carey\"}}", "seconds": 0.6328980000689626, "usage": {"input_tokens": 890, "output_tokens": 21}}
+{"id": "1760", "reply": "{\"intent\": \"news_query\", \"slots\": {\"news_topic\": \"terrorism\"}}", "seconds": 0.6243729999987409, "usage": {"input_tokens": 862, "output_tokens": 19}}
+{"id": "13966", "reply": "{\"intent\": \"qa_currency\", \"slots\": {\"currency_name\": \"yen\"}}", "seconds": 0.6777282000984997, "usage": {"input_tokens": 867, "output_tokens": 19}}
+{"id": "625", "reply": "{\"intent\": \"play_music\", \"slots\": {\"song_name\": \"radio gaga\"}}", "seconds": 0.7451444999314845, "usage": {"input_tokens": 893, "output_tokens": 21}}
+{"id": "2164", "reply": "{\"intent\": \"cooking_query\", \"slots\": {}}", "seconds": 0.7796502000419423, "usage": {"input_tokens": 928, "output_tokens": 13}}
+{"id": "3387", "reply": "{\"intent\": \"iot_hue_lightchange\", \"slots\": {\"color_type\": \"red\", \"house_place\": \"here\"}}", "seconds": 0.7253651000792161, "usage": {"input_tokens": 898, "output_tokens": 30}}
+{"id": "6785", "reply": "{\"intent\": \"calendar_query\", \"slots\": {}}", "seconds": 0.5791950999991968, "usage": {"input_tokens": 887, "output_tokens": 13}}
+{"id": "7044", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"event_name\": \"start getting ready\", \"time\": \"five p. m.\"}}", "seconds": 0.5884331000270322, "usage": {"input_tokens": 1008, "output_tokens": 31}}
+{"id": "16506", "reply": "{\"intent\": \"email_addcontact\", \"slots\": {}}", "seconds": 0.6961318999528885, "usage": {"input_tokens": 900, "output_tokens": 14}}
+{"id": "13798", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {}}", "seconds": 0.724034299957566, "usage": {"input_tokens": 883, "output_tokens": 14}}
+{"id": "14395", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"place_name\": \"earth\"}}", "seconds": 0.6966113999951631, "usage": {"input_tokens": 880, "output_tokens": 20}}
+{"id": "12469", "reply": "{\"intent\": \"transport_ticket\", \"slots\": {\"place_name\": \"new york city\", \"transport_type\": \"train\"}}", "seconds": 0.7128816000185907, "usage": {"input_tokens": 976, "output_tokens": 29}}
+{"id": "17108", "reply": "{\"intent\": \"email_query\", \"slots\": {}}", "seconds": 0.7431349999969825, "usage": {"input_tokens": 885, "output_tokens": 13}}
+{"id": "564", "reply": "{\"intent\": \"iot_hue_lightchange\", \"slots\": {}}", "seconds": 0.6580242000054568, "usage": {"input_tokens": 868, "output_tokens": 16}}
+{"id": "1458", "reply": "{\"intent\": \"weather_query\", \"slots\": {\"place_name\": \"quebec\"}}", "seconds": 0.592915500048548, "usage": {"input_tokens": 910, "output_tokens": 20}}
+{"id": "6557", "reply": "{\"intent\": \"play_music\", \"slots\": {\"media_type\": \"videos\"}}", "seconds": 1.295950899948366, "usage": {"input_tokens": 841, "output_tokens": 19}}
+{"id": "16271", "reply": "{\"intent\": \"email_query\", \"slots\": {}}", "seconds": 0.7336383999790996, "usage": {"input_tokens": 842, "output_tokens": 13}}
+{"id": "6083", "reply": "{\"intent\": \"alarm_set\", \"slots\": {\"date\": \"today\", \"time\": \"ten am\"}}", "seconds": 0.698083599912934, "usage": {"input_tokens": 950, "output_tokens": 24}}
+{"id": "15841", "reply": "{\"intent\": \"email_sendemail\", \"slots\": {\"person\": \"ray\"}}", "seconds": 0.5913626999827102, "usage": {"input_tokens": 882, "output_tokens": 18}}
+{"id": "10171", "reply": "{\"intent\": \"cooking_recipe\", \"slots\": {\"food_type\": \"fish soup\"}}", "seconds": 1.3616193999769166, "usage": {"input_tokens": 878, "output_tokens": 20}}
+{"id": "10996", "reply": "{\"intent\": \"email_addcontact\", \"slots\": {\"person\": \"bob\"}}", "seconds": 0.8761174000101164, "usage": {"input_tokens": 909, "output_tokens": 18}}
+{"id": "14330", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"person\": \"steve jobs\"}}", "seconds": 0.6571703000226989, "usage": {"input_tokens": 892, "output_tokens": 20}}
+{"id": "11265", "reply": "{\"intent\": \"play_music\", \"slots\": {}}", "seconds": 0.7634990999940783, "usage": {"input_tokens": 882, "output_tokens": 13}}
+{"id": "3030", "reply": "{\"intent\": \"music_likeness\", \"slots\": {}}", "seconds": 0.6870287999045104, "usage": {"input_tokens": 855, "output_tokens": 14}}
+{"id": "4336", "reply": "{\"intent\": \"datetime_query\", \"slots\": {\"place_name\": \"china\"}}", "seconds": 0.766706999973394, "usage": {"input_tokens": 889, "output_tokens": 19}}
+{"id": "14508", "reply": "{\"intent\": \"qa_definition\", \"slots\": {\"person\": \"george r. r. martin\", \"book_name\": \"ice and fire\"}}", "seconds": 0.9178686999948695, "usage": {"input_tokens": 921, "output_tokens": 33}}
+{"id": "8431", "reply": "{\"intent\": \"calendar_remove\", \"slots\": {}}", "seconds": 0.9569914999883622, "usage": {"input_tokens": 866, "output_tokens": 13}}
+{"id": "15513", "reply": "{\"intent\": \"social_query\", \"slots\": {}}", "seconds": 0.6576616000384092, "usage": {"input_tokens": 893, "output_tokens": 13}}
+{"id": "14564", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {}}", "seconds": 0.5526916000526398, "usage": {"input_tokens": 929, "output_tokens": 14}}
+{"id": "2560", "reply": "{\"intent\": \"play_music\", \"slots\": {}}", "seconds": 0.6506722000194713, "usage": {"input_tokens": 862, "output_tokens": 13}}
+{"id": "15289", "reply": "{\"intent\": \"social_post\", \"slots\": {}}", "seconds": 0.6922439000336453, "usage": {"input_tokens": 872, "output_tokens": 13}}
+{"id": "16166", "reply": "{\"intent\": \"email_sendemail\", \"slots\": {\"person\": \"charlotte\", \"time\": \"next three weeks\"}}", "seconds": 0.6640315999975428, "usage": {"input_tokens": 923, "output_tokens": 28}}
+{"id": "3401", "reply": "{\"intent\": \"play_music\", \"slots\": {\"artist_name\": \"elton john\"}}", "seconds": 0.6929348000558093, "usage": {"input_tokens": 865, "output_tokens": 20}}
+{"id": "4449", "reply": "{\"intent\": \"weather_query\", \"slots\": {\"weather_descriptor\": \"rain\", \"time\": \"one p. m.\", \"date\": \"today\"}}", "seconds": 0.8737400999525562, "usage": {"input_tokens": 1048, "output_tokens": 34}}
+{"id": "14272", "reply": "{\"intent\": \"qa_definition\", \"slots\": {\"definition_word\": \"book\"}}", "seconds": 0.7466929999645799, "usage": {"input_tokens": 898, "output_tokens": 19}}
+{"id": "15723", "reply": "{\"intent\": \"social_post\", \"slots\": {\"media_type\": \"facebook\"}}", "seconds": 0.7134231000673026, "usage": {"input_tokens": 872, "output_tokens": 19}}
+{"id": "4024", "reply": "{\"intent\": \"iot_wemo_off\", \"slots\": {}}", "seconds": 0.7449581999098882, "usage": {"input_tokens": 865, "output_tokens": 16}}
+{"id": "10285", "reply": "{\"intent\": \"play_game\", \"slots\": {\"game_name\": \"clash of clans\"}}", "seconds": 0.7444779999786988, "usage": {"input_tokens": 860, "output_tokens": 22}}
+{"id": "8449", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"event_name\": \"birthday\"}}", "seconds": 0.6239892999874428, "usage": {"input_tokens": 907, "output_tokens": 19}}
+{"id": "13799", "reply": "{\"intent\": \"qa_definition\", \"slots\": {\"definition_word\": \"subjegant\"}}", "seconds": 0.6605757999932393, "usage": {"input_tokens": 871, "output_tokens": 21}}
+{"id": "2225", "reply": "{\"intent\": \"play_music\", \"slots\": {\"artist_name\": \"ella fitzgerals\", \"song_name\": \"get happy\"}}", "seconds": 0.806370300007984, "usage": {"input_tokens": 874, "output_tokens": 32}}
+{"id": "9630", "reply": "{\"intent\": \"play_radio\", \"slots\": {\"radio_name\": \"radio mirchi\"}}", "seconds": 0.6624447000212967, "usage": {"input_tokens": 885, "output_tokens": 21}}
+{"id": "6305", "reply": "{\"intent\": \"general_quirky\", \"slots\": {\"date\": \"today\"}}", "seconds": 0.7753355000168085, "usage": {"input_tokens": 864, "output_tokens": 18}}
+{"id": "7598", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"event_name\": \"meeting\", \"person\": \"fred\"}}", "seconds": 0.8247902999864891, "usage": {"input_tokens": 995, "output_tokens": 25}}
+{"id": "13101", "reply": "{\"intent\": \"qa_maths\", \"slots\": {}}", "seconds": 0.6456692999927327, "usage": {"input_tokens": 909, "output_tokens": 14}}
+{"id": "15829", "reply": "{\"intent\": \"email_addcontact\", \"slots\": {}}", "seconds": 0.7189705000491813, "usage": {"input_tokens": 913, "output_tokens": 14}}
+{"id": "258", "reply": "{\"intent\": \"audio_volume_down\", \"slots\": {}}", "seconds": 0.6102644000202417, "usage": {"input_tokens": 869, "output_tokens": 15}}
+{"id": "9562", "reply": "{\"intent\": \"play_podcasts\", \"slots\": {}}", "seconds": 0.6868957999395207, "usage": {"input_tokens": 859, "output_tokens": 14}}
+{"id": "12874", "reply": "{\"intent\": \"transport_ticket\", \"slots\": {\"transport_type\": \"train\"}}", "seconds": 0.6847542999312282, "usage": {"input_tokens": 980, "output_tokens": 19}}
+{"id": "9700", "reply": "{\"intent\": \"play_audiobook\", \"slots\": {\"audiobook_name\": \"biography of jackie kennedy\"}}", "seconds": 0.9010630999691784, "usage": {"input_tokens": 839, "output_tokens": 27}}
+{"id": "10525", "reply": "{\"intent\": \"calendar_remove\", \"slots\": {\"event_name\": \"car payment\"}}", "seconds": 1.012938000028953, "usage": {"input_tokens": 872, "output_tokens": 20}}
+{"id": "2480", "reply": "{\"intent\": \"takeaway_order\", \"slots\": {\"order_type\": \"take-out\"}}", "seconds": 1.6376751000061631, "usage": {"input_tokens": 918, "output_tokens": 22}}
+{"id": "4837", "reply": "{\"intent\": \"news_query\", \"slots\": {}}", "seconds": 1.189169600023888, "usage": {"input_tokens": 854, "output_tokens": 13}}
+{"id": "14130", "reply": "{\"intent\": \"qa_stock\", \"slots\": {\"business_name\": \"googs\"}}", "seconds": 11.297573800082318, "usage": {"input_tokens": 862, "output_tokens": 20}}
+{"id": "10815", "reply": "{\"intent\": \"lists_createoradd\", \"slots\": {\"ingredient\": \"toothpaste\", \"list_name\": \"shopping\"}}", "seconds": 0.6390853000339121, "usage": {"input_tokens": 888, "output_tokens": 27}}
+{"id": "9977", "reply": "{\"intent\": \"cooking_recipe\", \"slots\": {\"food_type\": \"italian foods\"}}", "seconds": 0.947169299935922, "usage": {"input_tokens": 900, "output_tokens": 20}}
+{"id": "9561", "reply": "{\"intent\": \"play_radio\", \"slots\": {\"radio_name\": \"station gx\"}}", "seconds": 0.7337612999835983, "usage": {"input_tokens": 892, "output_tokens": 20}}
+{"id": "9149", "reply": "{\"intent\": \"calendar_query\", \"slots\": {\"event_name\": \"black tie gala dinner\"}}", "seconds": 0.886193500016816, "usage": {"input_tokens": 894, "output_tokens": 22}}
+{"id": "884", "reply": "{\"intent\": \"alarm_set\", \"slots\": {\"time\": \"eight am\"}}", "seconds": 0.7935493999393657, "usage": {"input_tokens": 950, "output_tokens": 18}}
+{"id": "475", "reply": "{\"intent\": \"general_quirky\", \"slots\": {}}", "seconds": 0.6598539999686182, "usage": {"input_tokens": 835, "output_tokens": 14}}
+{"id": "6550", "reply": "{\"intent\": \"general_quirky\", \"slots\": {\"date\": \"today\"}}", "seconds": 0.6444337000139058, "usage": {"input_tokens": 874, "output_tokens": 18}}
+{"id": "1063", "reply": "{\"intent\": \"news_query\", \"slots\": {\"news_topic\": \"sports news\"}}", "seconds": 0.9999307999387383, "usage": {"input_tokens": 873, "output_tokens": 20}}
+{"id": "8084", "reply": "{\"intent\": \"calendar_query\", \"slots\": {}}", "seconds": 0.6944350999547169, "usage": {"input_tokens": 867, "output_tokens": 13}}
+{"id": "11172", "reply": "{\"intent\": \"lists_query\", \"slots\": {}}", "seconds": 0.8270433999132365, "usage": {"input_tokens": 875, "output_tokens": 13}}
+{"id": "6024", "reply": "{\"intent\": \"weather_query\", \"slots\": {\"weather_descriptor\": [\"sweater\", \"coat\"], \"date\": \"today\"}}", "seconds": 0.7758201999822631, "usage": {"input_tokens": 954, "output_tokens": 28}}
+{"id": "1870", "reply": "{\"intent\": \"datetime_query\", \"slots\": {\"date\": \"today\"}}", "seconds": 0.7688862000359222, "usage": {"input_tokens": 900, "output_tokens": 17}}
+{"id": "2914", "reply": "{\"intent\": \"datetime_query\", \"slots\": {\"date\": \"today\"}}", "seconds": 0.7357236999087036, "usage": {"input_tokens": 901, "output_tokens": 17}}
+{"id": "5324", "reply": "{\"intent\": \"general_quirky\", \"slots\": {}}", "seconds": 0.7664401000365615, "usage": {"input_tokens": 844, "output_tokens": 14}}
+{"id": "9380", "reply": "{\"intent\": \"play_radio\", \"slots\": {\"radio_name\": \"hot one hundred and five\"}}", "seconds": 0.6684384000254795, "usage": {"input_tokens": 916, "output_tokens": 23}}
+{"id": "13705", "reply": "{\"intent\": \"qa_definition\", \"slots\": {\"definition_word\": \"electronic emissions system\"}}", "seconds": 0.6988169000251219, "usage": {"input_tokens": 869, "output_tokens": 21}}
+{"id": "6162", "reply": "{\"intent\": \"alarm_remove\", \"slots\": {}}", "seconds": 0.6893579000607133, "usage": {"input_tokens": 867, "output_tokens": 13}}
+{"id": "5318", "reply": "{\"intent\": \"play_music\", \"slots\": {\"artist_name\": \"are rehman's\"}}", "seconds": 0.5643053000094369, "usage": {"input_tokens": 903, "output_tokens": 23}}
+{"id": "6959", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"event_name\": \"meeting\", \"time\": \"an hour before\"}}", "seconds": 0.7357479999773204, "usage": {"input_tokens": 949, "output_tokens": 27}}
+{"id": "5328", "reply": "{\"intent\": \"play_music\", \"slots\": {\"music_genre\": \"rock\"}}", "seconds": 0.841174199944362, "usage": {"input_tokens": 901, "output_tokens": 19}}
+{"id": "2770", "reply": "{\"intent\": \"play_music\", \"slots\": {\"music_genre\": \"jazz\"}}", "seconds": 0.6745921999681741, "usage": {"input_tokens": 863, "output_tokens": 19}}
+{"id": "424", "reply": "{\"intent\": \"news_query\", \"slots\": {}}", "seconds": 0.8017350999871269, "usage": {"input_tokens": 831, "output_tokens": 13}}
+{"id": "9326", "reply": "{\"intent\": \"play_radio\", \"slots\": {\"radio_name\": \"station one\"}}", "seconds": 0.6233345000073314, "usage": {"input_tokens": 897, "output_tokens": 20}}
+{"id": "4710", "reply": "{\"intent\": \"datetime_query\", \"slots\": {\"event_name\": \"halloween\", \"date\": \"this year\"}}", "seconds": 0.7478144000051543, "usage": {"input_tokens": 875, "output_tokens": 26}}
+{"id": "7655", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"date\": \"april twenty\", \"event_name\": \"bro's birthday\"}}", "seconds": 0.762761399964802, "usage": {"input_tokens": 954, "output_tokens": 29}}
+{"id": "10442", "reply": "{\"intent\": \"lists_remove\", \"slots\": {\"event_name\": \"events\"}}", "seconds": 0.5968186999671161, "usage": {"input_tokens": 843, "output_tokens": 19}}
+{"id": "3489", "reply": "{\"intent\": \"play_music\", \"slots\": {}}", "seconds": 0.6826277999207377, "usage": {"input_tokens": 859, "output_tokens": 13}}
+{"id": "7152", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"meal_type\": \"lunch\", \"general_frequency\": \"every day\", \"time\": \"twelve thirty\"}}", "seconds": 1.3701660999795422, "usage": {"input_tokens": 921, "output_tokens": 36}}
+{"id": "12963", "reply": "{\"intent\": \"qa_definition\", \"slots\": {\"definition_word\": \"forensic\"}}", "seconds": 0.6084530999651179, "usage": {"input_tokens": 869, "output_tokens": 20}}
+{"id": "10256", "reply": "{\"intent\": \"play_game\", \"slots\": {\"game_name\": \"super mario\"}}", "seconds": 0.620082899928093, "usage": {"input_tokens": 881, "output_tokens": 20}}
+{"id": "14154", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"place_name\": \"africa\"}}", "seconds": 0.7419521000701934, "usage": {"input_tokens": 881, "output_tokens": 20}}
+{"id": "1794", "reply": "{\"intent\": \"general_quirky\", \"slots\": {\"person\": \"trump\", \"place_name\": \"russia\"}}", "seconds": 0.9785314999753609, "usage": {"input_tokens": 909, "output_tokens": 27}}
+{"id": "6325", "reply": "{\"intent\": \"general_quirky\", \"slots\": {}}", "seconds": 0.6546289999969304, "usage": {"input_tokens": 856, "output_tokens": 14}}
+{"id": "3841", "reply": "{\"intent\": \"iot_cleaning\", \"slots\": {\"device_type\": \"roomba\"}}", "seconds": 0.5926169999875128, "usage": {"input_tokens": 885, "output_tokens": 20}}
+{"id": "12606", "reply": "{\"intent\": \"transport_ticket\", \"slots\": {\"transport_type\": \"train\", \"place_name\": [\"orlando\", \"hwood\"]}}", "seconds": 0.5843020000029355, "usage": {"input_tokens": 1026, "output_tokens": 33}}
+{"id": "171", "reply": "{\"intent\": \"takeaway_query\", \"slots\": {}}", "seconds": 0.7974277000175789, "usage": {"input_tokens": 870, "output_tokens": 14}}
+{"id": "6672", "reply": "{\"intent\": \"general_quirky\", \"slots\": {}}", "seconds": 0.703072200063616, "usage": {"input_tokens": 935, "output_tokens": 14}}
+{"id": "1098", "reply": "{\"intent\": \"datetime_query\", \"slots\": {\"date\": \"the fifteenth of march\"}}", "seconds": 0.7135586999356747, "usage": {"input_tokens": 914, "output_tokens": 20}}
+{"id": "14661", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {\"person\": \"barack obama\"}}", "seconds": 0.8183299999218434, "usage": {"input_tokens": 870, "output_tokens": 21}}
+{"id": "437", "reply": "{\"intent\": \"music_query\", \"slots\": {\"artist_name\": \"bad religion\"}}", "seconds": 0.7062378000700846, "usage": {"input_tokens": 879, "output_tokens": 20}}
+{"id": "6789", "reply": "{\"intent\": \"calendar_set\", \"slots\": {\"event_name\": \"meeting\", \"person\": \"joanna\", \"date\": \"saturday\", \"time\": \"four p. m.\"}}", "seconds": 0.6046710999216884, "usage": {"input_tokens": 1074, "output_tokens": 43}}
+{"id": "9895", "reply": "{\"intent\": \"play_music\", \"slots\": {\"album_name\": \"secret garden\"}}", "seconds": 0.656931099947542, "usage": {"input_tokens": 875, "output_tokens": 20}}
+{"id": "1452", "reply": "{\"intent\": \"alarm_remove\", \"slots\": {\"date\": \"tomorrow\"}}", "seconds": 0.9379446000093594, "usage": {"input_tokens": 913, "output_tokens": 17}}
+{"id": "124", "reply": "{\"intent\": \"general_joke\", \"slots\": {}}", "seconds": 0.8940125000663102, "usage": {"input_tokens": 888, "output_tokens": 13}}
+{"id": "2717", "reply": "{\"intent\": \"play_music\", \"slots\": {\"song_name\": \"purple haze\"}}", "seconds": 0.8733531999168918, "usage": {"input_tokens": 881, "output_tokens": 20}}
+{"id": "9851", "reply": "{\"intent\": \"play_audiobook\", \"slots\": {\"player_setting\": \"resume\", \"audiobook_name\": \"joes book\"}}", "seconds": 0.7104282999644056, "usage": {"input_tokens": 902, "output_tokens": 31}}
+{"id": "4227", "reply": "{\"intent\": \"weather_query\", \"slots\": {\"weather_descriptor\": \"rain\", \"time\": \"next week\"}}", "seconds": 0.7130491998977959, "usage": {"input_tokens": 893, "output_tokens": 26}}
+{"id": "1830", "reply": "{\"intent\": \"takeaway_order\", \"slots\": {\"food_type\": \"spicy thing\"}}", "seconds": 0.746730399900116, "usage": {"input_tokens": 874, "output_tokens": 22}}
+{"id": "12608", "reply": "{\"intent\": \"transport_taxi\", \"slots\": {\"date\": \"monday\", \"time\": \"noon\"}}", "seconds": 0.9966418000403792, "usage": {"input_tokens": 996, "output_tokens": 23}}
+{"id": "14891", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {}}", "seconds": 0.9065004999283701, "usage": {"input_tokens": 907, "output_tokens": 14}}
+{"id": "15700", "reply": "{\"intent\": \"lists_query\", \"slots\": {}}", "seconds": 0.6696696999715641, "usage": {"input_tokens": 851, "output_tokens": 13}}
+{"id": "9986", "reply": "{\"intent\": \"weather_query\", \"slots\": {\"weather_descriptor\": \"boiling\"}}", "seconds": 0.626435499987565, "usage": {"input_tokens": 880, "output_tokens": 20}}
+{"id": "4400", "reply": "{\"intent\": \"news_query\", \"slots\": {\"media_type\": \"new york times\"}}", "seconds": 2.639017500099726, "usage": {"input_tokens": 895, "output_tokens": 21}}
+{"id": "3809", "reply": "{\"intent\": \"audio_volume_down\", \"slots\": {}}", "seconds": 0.7043315999908373, "usage": {"input_tokens": 879, "output_tokens": 15}}
+{"id": "6178", "reply": "{\"intent\": \"weather_query\", \"slots\": {\"weather_descriptor\": \"jacket\"}}", "seconds": 0.8052544000092894, "usage": {"input_tokens": 927, "output_tokens": 19}}
+{"id": "6282", "reply": "{\"intent\": \"general_quirky\", \"slots\": {}}", "seconds": 0.579882699996233, "usage": {"input_tokens": 897, "output_tokens": 14}}
+{"id": "4244", "reply": "{\"intent\": \"iot_coffee\", \"slots\": {\"device_type\": \"coffee machine\"}}", "seconds": 0.634567299974151, "usage": {"input_tokens": 851, "output_tokens": 20}}
+{"id": "15216", "reply": "{\"intent\": \"social_post\", \"slots\": {\"media_type\": \"tweet\"}}", "seconds": 0.766984699992463, "usage": {"input_tokens": 894, "output_tokens": 19}}
+{"id": "15777", "reply": "{\"intent\": \"email_query\", \"slots\": {}}", "seconds": 0.6584186999825761, "usage": {"input_tokens": 846, "output_tokens": 13}}
+{"id": "5122", "reply": "{\"intent\": \"alarm_query\", \"slots\": {}}", "seconds": 0.7277102000080049, "usage": {"input_tokens": 905, "output_tokens": 13}}
+{"id": "11154", "reply": "{\"intent\": \"lists_query\", \"slots\": {\"list_name\": \"to do\"}}", "seconds": 9.942546500009485, "usage": {"input_tokens": 845, "output_tokens": 20}}
+{"id": "6801", "reply": "{\"intent\": \"calendar_query\", \"slots\": {\"date\": \"this friday\"}}", "seconds": 14.87377139995806, "usage": {"input_tokens": 913, "output_tokens": 18}}
+{"id": "13693", "reply": "{\"intent\": \"qa_factoid\", \"slots\": {}}", "seconds": 30.58009740000125, "usage": {"input_tokens": 896, "output_tokens": 14}}
+{"id": "14253", "reply": "{\"intent\": \"qa_stock\", \"slots\": {\"business_name\": \"amazon\"}}", "seconds": 35.85826240002643, "usage": {"input_tokens": 904, "output_tokens": 19}}

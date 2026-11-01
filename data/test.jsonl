@@ -1,0 +1,300 @@
+{"id": "17107", "text": "check new emails", "target": {"intent": "email_query", "slots": {}}}
+{"id": "8347", "text": "what is going on on december fourth", "target": {"intent": "calendar_query", "slots": {"date": "december fourth"}}}
+{"id": "10217", "text": "find the recipe for sambar in cookingforu application", "target": {"intent": "cooking_recipe", "slots": {"food_type": "sambar", "app_name": "cookingforu"}}}
+{"id": "10335", "text": "olly play poker with me", "target": {"intent": "play_game", "slots": {"game_name": "poker"}}}
+{"id": "16228", "text": "is it anyone i knows birthday this month", "target": {"intent": "email_querycontact", "slots": {"event_name": "birthday", "date": "this month"}}}
+{"id": "4313", "text": "will there be rain tomorrow in rome", "target": {"intent": "weather_query", "slots": {"weather_descriptor": "rain", "date": "tomorrow", "place_name": "rome"}}}
+{"id": "41", "text": "i want the status on my screen brightness", "target": {"intent": "general_quirky", "slots": {}}}
+{"id": "1803", "text": "which teams are playing today in the premier league", "target": {"intent": "news_query", "slots": {"date": "today", "news_topic": "premier league"}}}
+{"id": "14342", "text": "what is the stock price of hdfc", "target": {"intent": "qa_stock", "slots": {"business_name": "hdfc"}}}
+{"id": "1527", "text": "remind me that i like that song", "target": {"intent": "music_likeness", "slots": {}}}
+{"id": "9394", "text": "hey olly play the radio", "target": {"intent": "play_radio", "slots": {}}}
+{"id": "10338", "text": "play for me the game harry potter and the chamber of secrets", "target": {"intent": "play_game", "slots": {"game_name": "harry potter and the chamber of secrets"}}}
+{"id": "16694", "text": "locate the email to giant eagle and put it into my contact list", "target": {"intent": "email_addcontact", "slots": {"business_name": "giant eagle", "list_name": "contact list"}}}
+{"id": "14315", "text": "is this the least or most important moment in history ever", "target": {"intent": "general_quirky", "slots": {}}}
+{"id": "1940", "text": "play the song title", "target": {"intent": "play_music", "slots": {}}}
+{"id": "426", "text": "power up the plug socket one", "target": {"intent": "iot_wemo_on", "slots": {"device_type": "plug socket one"}}}
+{"id": "13706", "text": "describe a rotor", "target": {"intent": "qa_definition", "slots": {"definition_word": "rotor"}}}
+{"id": "6015", "text": "decrease brightness of lights", "target": {"intent": "iot_hue_lightdim", "slots": {}}}
+{"id": "12839", "text": "take me to layfayette saint and canal", "target": {"intent": "transport_query", "slots": {"place_name": "layfayette saint and canal"}}}
+{"id": "5758", "text": "how's the weather in the capital city", "target": {"intent": "weather_query", "slots": {"place_name": "the capital city"}}}
+{"id": "10636", "text": "create a list that is available", "target": {"intent": "lists_createoradd", "slots": {}}}
+{"id": "14011", "text": "what is dolly parton's birthday", "target": {"intent": "qa_factoid", "slots": {"person": "dolly parton's", "event_name": "birthday"}}}
+{"id": "2026", "text": "coffee make now", "target": {"intent": "iot_coffee", "slots": {}}}
+{"id": "4917", "text": "temperature outside", "target": {"intent": "weather_query", "slots": {"weather_descriptor": "temperature"}}}
+{"id": "15364", "text": "can you let amazon know that this new phone case is junk", "target": {"intent": "social_post", "slots": {"business_name": "amazon"}}}
+{"id": "11029", "text": "add to list", "target": {"intent": "lists_createoradd", "slots": {}}}
+{"id": "14981", "text": "iphone seven description", "target": {"intent": "qa_definition", "slots": {"definition_word": "iphone seven"}}}
+{"id": "8110", "text": "please add supervision to my calendar", "target": {"intent": "calendar_set", "slots": {"event_name": "supervision"}}}
+{"id": "10960", "text": "scratch that one from the list", "target": {"intent": "lists_remove", "slots": {}}}
+{"id": "11665", "text": "olly i'm looking for some dress shows can you find clothing stores within one mile", "target": {"intent": "recommendation_locations", "slots": {"business_type": "dress shows", "place_name": "within one mile"}}}
+{"id": "1301", "text": "tell me about the new foreign policy of trump", "target": {"intent": "news_query", "slots": {"news_topic": "foreign policy of trump"}}}
+{"id": "8667", "text": "within the past three months how many meetings did i have with mr. richards", "target": {"intent": "calendar_query", "slots": {"time": "past three months", "event_name": "meetings", "person": "mr. richards"}}}
+{"id": "4618", "text": "enable smart socket", "target": {"intent": "iot_wemo_on", "slots": {"device_type": "smart socket"}}}
+{"id": "11529", "text": "hey play my favorite podcast from list", "target": {"intent": "play_podcasts", "slots": {"podcast_descriptor": "favorite"}}}
+{"id": "4258", "text": "what's the latest news", "target": {"intent": "news_query", "slots": {}}}
+{"id": "13064", "text": "explain quantum physics to me in language i understand", "target": {"intent": "general_quirky", "slots": {}}}
+{"id": "3207", "text": "stream poker face by lady gaga", "target": {"intent": "play_music", "slots": {"song_name": "poker face", "artist_name": "lady gaga"}}}
+{"id": "8782", "text": "do i have a meeting this afternoon", "target": {"intent": "calendar_query", "slots": {"event_name": "meeting", "timeofday": "this afternoon"}}}
+{"id": "4084", "text": "make a coffee", "target": {"intent": "iot_coffee", "slots": {}}}
+{"id": "10107", "text": "i need a recipe of veg pulav", "target": {"intent": "cooking_recipe", "slots": {"food_type": "veg pulav"}}}
+{"id": "17138", "text": "please archive my read messages", "target": {"intent": "email_query", "slots": {}}}
+{"id": "9669", "text": "i want to listen to be more chill by ned vizzini", "target": {"intent": "play_audiobook", "slots": {"audiobook_name": "be more chill", "audiobook_author": "ned vizzini"}}}
+{"id": "5590", "text": "open temperature", "target": {"intent": "weather_query", "slots": {"weather_descriptor": "temperature"}}}
+{"id": "1007", "text": "play creed from my rock playlist", "target": {"intent": "play_music", "slots": {"artist_name": "creed", "music_genre": "rock"}}}
+{"id": "4125", "text": "where can i get a shot of tequila and some to go mexican food", "target": {"intent": "takeaway_query", "slots": {"food_type": ["tequila", "mexican"]}}}
+{"id": "9976", "text": "hey robot give me a list of ingredients for welsh rarebit", "target": {"intent": "cooking_recipe", "slots": {"food_type": "welsh rarebit"}}}
+{"id": "11250", "text": "read back my grocery list to me", "target": {"intent": "lists_query", "slots": {"list_name": "grocery"}}}
+{"id": "16222", "text": "tell me about mary s.", "target": {"intent": "email_querycontact", "slots": {"person": "mary s."}}}
+{"id": "12536", "text": "book me a train ticket to barcelona please", "target": {"intent": "transport_ticket", "slots": {"transport_type": "train", "place_name": "barcelona"}}}
+{"id": "7209", "text": "can you remind me to take the garbage out on tuesday", "target": {"intent": "calendar_set", "slots": {"event_name": "garbage out", "date": "tuesday"}}}
+{"id": "8345", "text": "let me know when the meeting is gonna happen", "target": {"intent": "calendar_set", "slots": {"event_name": "meeting"}}}
+{"id": "11490", "text": "play the next show on podcast", "target": {"intent": "play_podcasts", "slots": {"podcast_descriptor": "next show"}}}
+{"id": "13983", "text": "suffering consequences", "target": {"intent": "qa_definition", "slots": {}}}
+{"id": "1156", "text": "latest new on international women's day", "target": {"intent": "news_query", "slots": {"news_topic": "international women's day"}}}
+{"id": "13459", "text": "what is twelve divided by four", "target": {"intent": "qa_maths", "slots": {}}}
+{"id": "827", "text": "play bob dylan playlist", "target": {"intent": "play_music", "slots": {"artist_name": "bob dylan"}}}
+{"id": "3570", "text": "please turn off the lights in patio", "target": {"intent": "iot_hue_lightoff", "slots": {"house_place": "patio"}}}
+{"id": "7686", "text": "include mike and jack to festival calendar", "target": {"intent": "calendar_set", "slots": {"person": ["mike", "jack"], "event_name": "festival"}}}
+{"id": "16642", "text": "check mail for anything from shelly", "target": {"intent": "email_query", "slots": {"person": "shelly"}}}
+{"id": "14475", "text": "detail for stock price", "target": {"intent": "qa_stock", "slots": {}}}
+{"id": "8188", "text": "what date is it", "target": {"intent": "calendar_query", "slots": {}}}
+{"id": "3039", "text": "what's new in the news", "target": {"intent": "news_query", "slots": {}}}
+{"id": "6643", "text": "best paid jobs in digital marketing in my area", "target": {"intent": "general_quirky", "slots": {}}}
+{"id": "10938", "text": "please add sugar to my grocery list", "target": {"intent": "lists_createoradd", "slots": {"list_name": "grocery"}}}
+{"id": "15593", "text": "tweet complain at comcast", "target": {"intent": "social_post", "slots": {"media_type": "tweet", "business_name": "at comcast"}}}
+{"id": "10399", "text": "please open and play chess with me", "target": {"intent": "play_game", "slots": {"game_name": "chess"}}}
+{"id": "14142", "text": "how much is the british pound", "target": {"intent": "qa_currency", "slots": {"currency_name": "british pound"}}}
+{"id": "1247", "text": "i need to know if mr. pizza delivers", "target": {"intent": "takeaway_query", "slots": {"business_name": "mr. pizza", "order_type": "delivers"}}}
+{"id": "16377", "text": "send mom an email now", "target": {"intent": "email_sendemail", "slots": {"relation": "mom"}}}
+{"id": "12409", "text": "where is the nearest gas station", "target": {"intent": "recommendation_locations", "slots": {"business_type": "gas station"}}}
+{"id": "16354", "text": "check for emails from my employer", "target": {"intent": "email_query", "slots": {"relation": "employer"}}}
+{"id": "9275", "text": "only nine hundred and ninety nine f. m. is to be played on the radio", "target": {"intent": "play_radio", "slots": {"radio_name": "nine hundred and ninety nine f. m."}}}
+{"id": "533", "text": "set an alarm for nine am", "target": {"intent": "alarm_set", "slots": {"time": "nine am"}}}
+{"id": "10678", "text": "add spent five dollars in my expenses list", "target": {"intent": "lists_createoradd", "slots": {"list_name": "expenses"}}}
+{"id": "158", "text": "lower the lights", "target": {"intent": "iot_hue_lightdim", "slots": {}}}
+{"id": "5026", "text": "please make the lights natural", "target": {"intent": "iot_hue_lightchange", "slots": {}}}
+{"id": "10105", "text": "how long should i cook a steak to achieve medium rare", "target": {"intent": "cooking_recipe", "slots": {"food_type": "steak"}}}
+{"id": "15670", "text": "send a complaint tweet", "target": {"intent": "social_post", "slots": {"media_type": "tweet"}}}
+{"id": "12710", "text": "call taxi", "target": {"intent": "transport_taxi", "slots": {"transport_type": "taxi"}}}
+{"id": "5574", "text": "brighten of lights in living room", "target": {"intent": "iot_hue_lightup", "slots": {"house_place": "living room"}}}
+{"id": "14083", "text": "where jackie chan currently live", "target": {"intent": "qa_factoid", "slots": {"person": "jackie chan"}}}
+{"id": "14994", "text": "what is denzel washington's next movie", "target": {"intent": "qa_factoid", "slots": {"person": "denzel washington's"}}}
+{"id": "6958", "text": "make sure there is no events on my calendar", "target": {"intent": "calendar_remove", "slots": {}}}
+{"id": "7113", "text": "will there any events downtown this weekend", "target": {"intent": "calendar_query", "slots": {"place_name": "downtown", "date": "this weekend"}}}
+{"id": "7055", "text": "schedule a meeting with matt at eleven am on thursday", "target": {"intent": "calendar_set", "slots": {"event_name": "meeting", "person": "matt", "time": "eleven am", "date": "thursday"}}}
+{"id": "1191", "text": "if it's sunrise in stockholm what time is it in okinawa", "target": {"intent": "datetime_convert", "slots": {"time": "sunrise", "place_name": ["stockholm", "okinawa"]}}}
+{"id": "16158", "text": "remember this email", "target": {"intent": "email_addcontact", "slots": {}}}
+{"id": "8466", "text": "i have a nine am meeting on wednesday send me a reminder", "target": {"intent": "calendar_set", "slots": {"time": "nine am", "event_name": "meeting", "date": "wednesday"}}}
+{"id": "11539", "text": "start next podcast", "target": {"intent": "play_podcasts", "slots": {"player_setting": "start"}}}
+{"id": "585", "text": "show latest news", "target": {"intent": "news_query", "slots": {}}}
+{"id": "12779", "text": "reserve the closest uber", "target": {"intent": "transport_taxi", "slots": {"transport_agency": "uber"}}}
+{"id": "9942", "text": "what all goes into a red velvet cake", "target": {"intent": "cooking_recipe", "slots": {"food_type": "red velvet cake"}}}
+{"id": "7477", "text": "remind me on fifth march of every year to arrange wedding anniversary presents", "target": {"intent": "calendar_set", "slots": {"date": "fifth march", "general_frequency": "every year", "event_name": "wedding anniversary presents"}}}
+{"id": "5038", "text": "what is the weather for this week", "target": {"intent": "weather_query", "slots": {"date": "this week"}}}
+{"id": "6489", "text": "web searches", "target": {"intent": "general_quirky", "slots": {}}}
+{"id": "5131", "text": "please tell me what is the time in sanfranscio", "target": {"intent": "datetime_query", "slots": {"place_name": "sanfranscio"}}}
+{"id": "12866", "text": "what is the timing of bagmati express", "target": {"intent": "transport_query", "slots": {"transport_name": "bagmati express"}}}
+{"id": "12693", "text": "what does the traffic look like on my usual route to work", "target": {"intent": "transport_traffic", "slots": {}}}
+{"id": "7039", "text": "set me a meeting next tuesday at eleven am with jesse", "target": {"intent": "calendar_set", "slots": {"event_name": "meeting", "date": "tuesday", "time": "eleven am", "person": "jesse"}}}
+{"id": "10786", "text": "clear my activities list for today", "target": {"intent": "lists_remove", "slots": {"list_name": "activities", "date": "today"}}}
+{"id": "7666", "text": "will you mark that i have a meeting with tom at three tomorrow", "target": {"intent": "calendar_set", "slots": {"event_name": "meeting", "person": "tom", "time": "three", "date": "tomorrow"}}}
+{"id": "15656", "text": "tweet a message to suqcom that i am still waiting for my delivery", "target": {"intent": "social_post", "slots": {"media_type": "tweet", "business_name": "suqcom"}}}
+{"id": "12789", "text": "can you tell me about the traffic", "target": {"intent": "transport_traffic", "slots": {}}}
+{"id": "14917", "text": "when's mark lanegan's next album out", "target": {"intent": "qa_factoid", "slots": {"person": "mark lanegan's"}}}
+{"id": "13150", "text": "can you cook something special for me and my wife", "target": {"intent": "general_quirky", "slots": {"relation": "wife"}}}
+{"id": "8394", "text": "set a reminder every day at noon to take medication", "target": {"intent": "calendar_set", "slots": {"general_frequency": "every day", "timeofday": "noon"}}}
+{"id": "8967", "text": "remind me two days before my wife birthday", "target": {"intent": "calendar_set", "slots": {"relation": "wife", "event_name": "birthday"}}}
+{"id": "712", "text": "i want to hear the last news from c. n. n.", "target": {"intent": "news_query", "slots": {"media_type": "c. n. n."}}}
+{"id": "9856", "text": "play the twilight book", "target": {"intent": "play_audiobook", "slots": {"audiobook_name": "twilight"}}}
+{"id": "9930", "text": "how long should i boil the egg", "target": {"intent": "cooking_recipe", "slots": {"cooking_type": "boil", "food_type": "egg"}}}
+{"id": "7258", "text": "remind me to send email to boss after one hour", "target": {"intent": "calendar_set", "slots": {"relation": "boss"}}}
+{"id": "14746", "text": "what's the capital of kazakhstan", "target": {"intent": "qa_factoid", "slots": {"place_name": "kazakhstan"}}}
+{"id": "10512", "text": "list everything left on my query", "target": {"intent": "lists_query", "slots": {}}}
+{"id": "11969", "text": "is there anything special going on nearby", "target": {"intent": "recommendation_events", "slots": {}}}
+{"id": "13135", "text": "when is the birth date of taylor lautner", "target": {"intent": "qa_factoid", "slots": {"person": "taylor lautner"}}}
+{"id": "8939", "text": "hayathis daughter baby shower", "target": {"intent": "calendar_set", "slots": {"person": "hayathis", "event_name": "daughter baby shower"}}}
+{"id": "12248", "text": "olly find the nearest uber", "target": {"intent": "transport_taxi", "slots": {"transport_agency": "uber"}}}
+{"id": "764", "text": "what is the weather forecast for this week", "target": {"intent": "weather_query", "slots": {"date": "this week"}}}
+{"id": "11331", "text": "show me the best podcast of rock songs having good rating", "target": {"intent": "play_podcasts", "slots": {"podcast_descriptor": "rock songs having good rating"}}}
+{"id": "4882", "text": "what time is it in a city", "target": {"intent": "datetime_query", "slots": {"place_name": "a city"}}}
+{"id": "6433", "text": "please know that today i had a meeting with george", "target": {"intent": "general_quirky", "slots": {"event_name": "meeting", "person": "george"}}}
+{"id": "4174", "text": "hey olly chance the current light settings", "target": {"intent": "iot_hue_lightchange", "slots": {}}}
+{"id": "9541", "text": "play the sweet song on radio", "target": {"intent": "play_radio", "slots": {}}}
+{"id": "5062", "text": "please play me songs from the eighties", "target": {"intent": "play_music", "slots": {"music_genre": "eighties"}}}
+{"id": "9941", "text": "how do i cook butter chicken", "target": {"intent": "cooking_recipe", "slots": {"cooking_type": "cook", "food_type": "butter chicken"}}}
+{"id": "10350", "text": "play racing", "target": {"intent": "play_game", "slots": {"game_name": "racing"}}}
+{"id": "12999", "text": "how old is mariah carey", "target": {"intent": "qa_factoid", "slots": {"person": "mariah carey"}}}
+{"id": "5158", "text": "please play the latest song from the album abbas", "target": {"intent": "play_music", "slots": {"music_album": "abbas"}}}
+{"id": "3700", "text": "lights at percent", "target": {"intent": "iot_hue_lightchange", "slots": {}}}
+{"id": "15942", "text": "send this email to reply to the latest emails", "target": {"intent": "email_sendemail", "slots": {}}}
+{"id": "10843", "text": "remove milk from my grocery list", "target": {"intent": "lists_remove", "slots": {"list_name": "grocery"}}}
+{"id": "13318", "text": "i want to know what supermarket near me has the best price on gluten free bread", "target": {"intent": "recommendation_locations", "slots": {"business_type": "supermarket", "food_type": "gluten free bread"}}}
+{"id": "10077", "text": "find a recipe for dinner tonight", "target": {"intent": "cooking_recipe", "slots": {"meal_type": "dinner", "timeofday": "tonight"}}}
+{"id": "12150", "text": "olly book me a ticket to paris on eurostar this weekend", "target": {"intent": "transport_ticket", "slots": {"place_name": "paris", "transport_name": "eurostar", "date": "this weekend"}}}
+{"id": "379", "text": "i want the music to be saved can you do it for me", "target": {"intent": "music_likeness", "slots": {}}}
+{"id": "16082", "text": "send an email to peter and ask him how is he now can i do something to help him", "target": {"intent": "email_sendemail", "slots": {"person": "peter"}}}
+{"id": "5955", "text": "how safe is the city regarding law and order", "target": {"intent": "weather_query", "slots": {}}}
+{"id": "6663", "text": "vacation spots", "target": {"intent": "general_quirky", "slots": {}}}
+{"id": "14597", "text": "what is the population of new york", "target": {"intent": "qa_factoid", "slots": {"place_name": "new york"}}}
+{"id": "16698", "text": "write a reply to my mother's email", "target": {"intent": "email_sendemail", "slots": {"relation": "mother's"}}}
+{"id": "11677", "text": "locate me the amazon restaurants", "target": {"intent": "recommendation_locations", "slots": {"business_name": "amazon", "business_type": "restaurants"}}}
+{"id": "4799", "text": "please turn on the wemo plug socket", "target": {"intent": "iot_wemo_on", "slots": {"device_type": "wemo plug socket"}}}
+{"id": "1786", "text": "switch off the master's bedroom", "target": {"intent": "iot_hue_lightoff", "slots": {"house_place": "master's bedroom"}}}
+{"id": "5347", "text": "play techno music", "target": {"intent": "play_music", "slots": {"music_genre": "techno"}}}
+{"id": "1276", "text": "i want a coffee", "target": {"intent": "iot_coffee", "slots": {}}}
+{"id": "6856", "text": "give me a reminder notification on tomorrow's meeting at ten am", "target": {"intent": "calendar_set", "slots": {"date": "tomorrow's", "event_name": "meeting", "time": "ten am"}}}
+{"id": "8043", "text": "what time is my next appointment", "target": {"intent": "calendar_query", "slots": {"event_name": "appointment"}}}
+{"id": "10099", "text": "do you know how to cook risotto", "target": {"intent": "cooking_recipe", "slots": {"food_type": "risotto"}}}
+{"id": "10858", "text": "new list", "target": {"intent": "lists_createoradd", "slots": {}}}
+{"id": "2288", "text": "start coffee at six am", "target": {"intent": "iot_coffee", "slots": {"time": "six am"}}}
+{"id": "3320", "text": "please activate my coffee pot for me", "target": {"intent": "iot_coffee", "slots": {"device_type": "coffee pot"}}}
+{"id": "9738", "text": "could you please play the classical music for me", "target": {"intent": "play_music", "slots": {"music_genre": "classical"}}}
+{"id": "281", "text": "what is the exchange rate of us dollar to pound sterling", "target": {"intent": "news_query", "slots": {"news_topic": "exchange rate of us dollar to pound sterling"}}}
+{"id": "9629", "text": "could you please help me in listening to the radio", "target": {"intent": "play_radio", "slots": {}}}
+{"id": "10759", "text": "read me my list for shopping", "target": {"intent": "lists_query", "slots": {"list_name": "shopping"}}}
+{"id": "1108", "text": "my desire is to listen to some country music", "target": {"intent": "play_music", "slots": {"music_genre": "country"}}}
+{"id": "3037", "text": "front page news articles please", "target": {"intent": "news_query", "slots": {}}}
+{"id": "1413", "text": "can you make me some coffee olly", "target": {"intent": "iot_coffee", "slots": {}}}
+{"id": "9438", "text": "can you play me a rap song on the radio", "target": {"intent": "play_radio", "slots": {"music_genre": "rap"}}}
+{"id": "9678", "text": "can you put on the giver", "target": {"intent": "play_audiobook", "slots": {"player_setting": "put on", "audiobook_name": "the giver"}}}
+{"id": "7971", "text": "set a reminder for two days prior of the event", "target": {"intent": "calendar_set", "slots": {"date": "two days"}}}
+{"id": "2167", "text": "get me up in half an hour", "target": {"intent": "alarm_set", "slots": {"time": "half an hour"}}}
+{"id": "1294", "text": "fast me the news of academy awards", "target": {"intent": "news_query", "slots": {"news_topic": "academy awards"}}}
+{"id": "9955", "text": "show me a video on cooking fried chicken", "target": {"intent": "cooking_recipe", "slots": {"media_type": "video", "food_type": "fried chicken"}}}
+{"id": "2498", "text": "siri today is what date", "target": {"intent": "datetime_query", "slots": {"date": "today"}}}
+{"id": "8251", "text": "i need next week's lunch put on the calendar", "target": {"intent": "calendar_set", "slots": {"date": "next week's", "meal_type": "lunch"}}}
+{"id": "6710", "text": "are you real", "target": {"intent": "general_quirky", "slots": {}}}
+{"id": "5557", "text": "i want reggae", "target": {"intent": "play_music", "slots": {"music_genre": "reggae"}}}
+{"id": "8165", "text": "one thousand two hundred and thirty p. m. already you will have a meeting in ten mins", "target": {"intent": "calendar_query", "slots": {"time": ["one thousand two hundred and thirty p. m.", "ten mins"], "event_name": "meeting"}}}
+{"id": "0", "text": "wake me up at five am this week", "target": {"intent": "alarm_set", "slots": {"time": "five am", "date": "this week"}}}
+{"id": "3614", "text": "it is a sunny day today right", "target": {"intent": "weather_query", "slots": {"weather_descriptor": "sunny", "date": "today"}}}
+{"id": "11505", "text": "replay my last played podcast", "target": {"intent": "play_podcasts", "slots": {"player_setting": "replay"}}}
+{"id": "13513", "text": "how many legs does a dog have", "target": {"intent": "qa_factoid", "slots": {}}}
+{"id": "63", "text": "tell me about my alarms", "target": {"intent": "alarm_query", "slots": {}}}
+{"id": "13592", "text": "where is new zealand located on a map", "target": {"intent": "qa_factoid", "slots": {"place_name": "new zealand"}}}
+{"id": "6366", "text": "tell me some best tourist places to visit in america", "target": {"intent": "recommendation_locations", "slots": {"place_name": ["best tourist places", "america"]}}}
+{"id": "16851", "text": "email notifications", "target": {"intent": "email_query", "slots": {}}}
+{"id": "1745", "text": "you like the song", "target": {"intent": "music_likeness", "slots": {}}}
+{"id": "10333", "text": "open saga", "target": {"intent": "play_game", "slots": {"game_name": "saga"}}}
+{"id": "16229", "text": "which contact haven't i called in twelve months", "target": {"intent": "email_querycontact", "slots": {"time": "twelve months"}}}
+{"id": "6295", "text": "i hate how long the traffic jams get", "target": {"intent": "general_quirky", "slots": {"time": "long"}}}
+{"id": "9254", "text": "please tune nine hundred and thirty eight f. m. radio mirchi", "target": {"intent": "play_radio", "slots": {"radio_name": "nine hundred and thirty eight f. m."}}}
+{"id": "13758", "text": "how old is marian carey", "target": {"intent": "qa_factoid", "slots": {"person": "marian carey"}}}
+{"id": "1760", "text": "latest news on terrorism", "target": {"intent": "news_query", "slots": {"news_topic": "terrorism"}}}
+{"id": "13966", "text": "what is the yen worth", "target": {"intent": "qa_currency", "slots": {"currency_name": "yen"}}}
+{"id": "625", "text": "please play the radio gaga song", "target": {"intent": "play_music", "slots": {"artist_name": "gaga"}}}
+{"id": "2164", "text": "when can we eat", "target": {"intent": "takeaway_query", "slots": {}}}
+{"id": "3387", "text": "make it red in here", "target": {"intent": "iot_hue_lightchange", "slots": {"color_type": "red"}}}
+{"id": "6785", "text": "what is my next reminder", "target": {"intent": "calendar_query", "slots": {}}}
+{"id": "7044", "text": "remind me to start getting ready by five p. m. please", "target": {"intent": "calendar_set", "slots": {"event_name": "getting ready", "time": "five p. m."}}}
+{"id": "16506", "text": "add new email address and send email", "target": {"intent": "email_sendemail", "slots": {}}}
+{"id": "13798", "text": "how many square miles is the average country on earth", "target": {"intent": "qa_factoid", "slots": {}}}
+{"id": "14395", "text": "what is the deepest point on earth", "target": {"intent": "qa_factoid", "slots": {}}}
+{"id": "12469", "text": "purchase ticket to new york city on train", "target": {"intent": "transport_ticket", "slots": {"place_name": "new york city", "transport_type": "train"}}}
+{"id": "17108", "text": "give me my latest email", "target": {"intent": "email_query", "slots": {}}}
+{"id": "564", "text": "change light color", "target": {"intent": "iot_hue_lightchange", "slots": {}}}
+{"id": "1458", "text": "how hot is it in quebec", "target": {"intent": "weather_query", "slots": {"weather_descriptor": "hot", "place_name": "quebec"}}}
+{"id": "6557", "text": "play videos", "target": {"intent": "general_quirky", "slots": {}}}
+{"id": "16271", "text": "refresh my inbox and inform me about new emails", "target": {"intent": "email_query", "slots": {"email_folder": "inbox"}}}
+{"id": "6083", "text": "create an alarm for today at ten am", "target": {"intent": "alarm_set", "slots": {"date": "today", "time": "ten am"}}}
+{"id": "15841", "text": "compose a new email to ray", "target": {"intent": "email_sendemail", "slots": {"person": "ray"}}}
+{"id": "10171", "text": "what's the recipe for fish soup", "target": {"intent": "cooking_recipe", "slots": {"food_type": "fish soup"}}}
+{"id": "10996", "text": "add bob to my list of contacts", "target": {"intent": "lists_createoradd", "slots": {"person": "bob", "list_name": "list of contacts"}}}
+{"id": "14330", "text": "where was steve jobs born", "target": {"intent": "qa_factoid", "slots": {"person": "steve jobs"}}}
+{"id": "11265", "text": "play the next one", "target": {"intent": "play_podcasts", "slots": {}}}
+{"id": "3030", "text": "i love this song", "target": {"intent": "music_likeness", "slots": {}}}
+{"id": "4336", "text": "what is the time in china", "target": {"intent": "datetime_query", "slots": {"place_name": "china"}}}
+{"id": "14508", "text": "please summarize the latest george r. r. martin ice and fire book", "target": {"intent": "qa_factoid", "slots": {}}}
+{"id": "8431", "text": "get rid of all my scheduled events", "target": {"intent": "calendar_remove", "slots": {}}}
+{"id": "15513", "text": "is there anything important happening on social media", "target": {"intent": "social_query", "slots": {}}}
+{"id": "14564", "text": "explain how is u. s. a. better than other countries", "target": {"intent": "general_quirky", "slots": {"place_name": "u. s. a."}}}
+{"id": "2560", "text": "play random music", "target": {"intent": "play_music", "slots": {}}}
+{"id": "15289", "text": "post the message now", "target": {"intent": "social_post", "slots": {}}}
+{"id": "16166", "text": "can you reply to charlotte that i am going to be busy with the projects for next three weeks", "target": {"intent": "email_sendemail", "slots": {"person": "charlotte", "time": "next three weeks"}}}
+{"id": "3401", "text": "play the most popular elton john song", "target": {"intent": "play_music", "slots": {"artist_name": "elton john"}}}
+{"id": "4449", "text": "is it going to rain at one p. m. today", "target": {"intent": "weather_query", "slots": {"weather_descriptor": "going to rain", "time": "one p. m.", "date": "today"}}}
+{"id": "14272", "text": "hey what's a book", "target": {"intent": "qa_definition", "slots": {"definition_word": "book"}}}
+{"id": "15723", "text": "set feeling happy status on facebook", "target": {"intent": "social_post", "slots": {"media_type": "facebook"}}}
+{"id": "4024", "text": "please power down", "target": {"intent": "iot_wemo_off", "slots": {}}}
+{"id": "10285", "text": "please play clash of clans", "target": {"intent": "play_game", "slots": {"game_name": "clash of clans"}}}
+{"id": "8449", "text": "set a reminder for my daughters birthday", "target": {"intent": "calendar_set", "slots": {"relation": "daughters", "event_name": "birthday"}}}
+{"id": "13799", "text": "what is the definition of subjegant", "target": {"intent": "qa_definition", "slots": {"definition_word": "subjegant"}}}
+{"id": "2225", "text": "play ella fitzgerals get happy", "target": {"intent": "play_music", "slots": {"artist_name": "ella fitzgerals", "song_name": "get happy"}}}
+{"id": "9630", "text": "play radio mirchi for me", "target": {"intent": "play_radio", "slots": {"radio_name": "radio mirchi"}}}
+{"id": "6305", "text": "what do you want to do today", "target": {"intent": "general_quirky", "slots": {"date": "today"}}}
+{"id": "7598", "text": "please set a meeting to discuss terrorism with fred on the next available meeting day", "target": {"intent": "calendar_set", "slots": {"event_name": ["meeting", "discuss terrorism"], "person": "fred", "date": "next available"}}}
+{"id": "13101", "text": "what is one plus one", "target": {"intent": "qa_maths", "slots": {}}}
+{"id": "15829", "text": "go to contacts and enter a new email address", "target": {"intent": "email_sendemail", "slots": {}}}
+{"id": "258", "text": "i can't hear you", "target": {"intent": "audio_volume_up", "slots": {}}}
+{"id": "9562", "text": "could you please play this program for me", "target": {"intent": "play_radio", "slots": {}}}
+{"id": "12874", "text": "train ticket please", "target": {"intent": "transport_ticket", "slots": {"transport_type": "train"}}}
+{"id": "9700", "text": "play biography of jackie kennedy", "target": {"intent": "play_audiobook", "slots": {"audiobook_name": "biography of jackie kennedy"}}}
+{"id": "10525", "text": "remove my car payment on my calendar", "target": {"intent": "lists_remove", "slots": {}}}
+{"id": "14130", "text": "what is googs current price", "target": {"intent": "qa_stock", "slots": {"business_name": "googs"}}}
+{"id": "2480", "text": "call for take-out", "target": {"intent": "takeaway_order", "slots": {"order_type": "take-out"}}}
+{"id": "4837", "text": "is there any news olly", "target": {"intent": "news_query", "slots": {}}}
+{"id": "10815", "text": "add toothpaste to my shopping list", "target": {"intent": "lists_createoradd", "slots": {"list_name": "shopping"}}}
+{"id": "9977", "text": "please search the internet and display the suitable youtube videos for cooking italian foods", "target": {"intent": "cooking_recipe", "slots": {"media_type": "youtube videos", "food_type": "italian"}}}
+{"id": "9561", "text": "play station gx in the radio", "target": {"intent": "play_radio", "slots": {"radio_name": "station gx"}}}
+{"id": "9149", "text": "what time is the black tie gala dinner supposed to begin", "target": {"intent": "calendar_query", "slots": {"event_name": "black tie gala dinner"}}}
+{"id": "884", "text": "set alarm for eight am", "target": {"intent": "alarm_set", "slots": {"time": "eight am"}}}
+{"id": "475", "text": "what mistakes do you usually make", "target": {"intent": "general_quirky", "slots": {}}}
+{"id": "6550", "text": "i got promoted today it feels so good", "target": {"intent": "general_quirky", "slots": {"date": "today"}}}
+{"id": "1063", "text": "get hourly notification on sports news", "target": {"intent": "news_query", "slots": {"general_frequency": "hourly", "news_topic": "sports"}}}
+{"id": "8084", "text": "what is the event agenda", "target": {"intent": "calendar_query", "slots": {}}}
+{"id": "11172", "text": "give me all available lists", "target": {"intent": "lists_query", "slots": {}}}
+{"id": "6024", "text": "should i take a sweater or a coat to work today", "target": {"intent": "weather_query", "slots": {"weather_descriptor": ["sweater", "coat"], "date": "today"}}}
+{"id": "1870", "text": "what month is today", "target": {"intent": "datetime_query", "slots": {"date": "today"}}}
+{"id": "2914", "text": "tell me what the date is today", "target": {"intent": "datetime_query", "slots": {"date": "today"}}}
+{"id": "5324", "text": "hey do you have home delivery", "target": {"intent": "takeaway_query", "slots": {"order_type": "delivery"}}}
+{"id": "9380", "text": "i want you to go to hot one hundred and five on the radio", "target": {"intent": "play_radio", "slots": {"radio_name": "hot one hundred and five"}}}
+{"id": "13705", "text": "what is an electronic emissions system", "target": {"intent": "qa_definition", "slots": {"definition_word": "electronic emissions system"}}}
+{"id": "6162", "text": "delete alarm", "target": {"intent": "alarm_remove", "slots": {}}}
+{"id": "5318", "text": "please play only are rehman's songs", "target": {"intent": "play_music", "slots": {"artist_name": "rehman's"}}}
+{"id": "6959", "text": "remind me about my meeting an hour before it begins", "target": {"intent": "calendar_set", "slots": {"event_name": "meeting", "time": "an hour"}}}
+{"id": "5328", "text": "rock", "target": {"intent": "play_music", "slots": {"music_genre": "rock"}}}
+{"id": "2770", "text": "olly play music from the jazz genre", "target": {"intent": "play_music", "slots": {"music_genre": "jazz"}}}
+{"id": "424", "text": "what are the breaking news", "target": {"intent": "news_query", "slots": {}}}
+{"id": "9326", "text": "please play radio station one right now", "target": {"intent": "play_radio", "slots": {"radio_name": "radio station one"}}}
+{"id": "4710", "text": "what day is halloween this year", "target": {"intent": "datetime_query", "slots": {"event_name": "halloween", "date": "this year"}}}
+{"id": "7655", "text": "add a reminder for april twenty as my bro's birthday", "target": {"intent": "calendar_set", "slots": {"date": "april twenty", "relation": "bro's", "event_name": "birthday"}}}
+{"id": "10442", "text": "remove events from my list", "target": {"intent": "lists_remove", "slots": {}}}
+{"id": "3489", "text": "play music now please", "target": {"intent": "play_music", "slots": {}}}
+{"id": "7152", "text": "set lunch every day at twelve thirty", "target": {"intent": "calendar_set", "slots": {"meal_type": "lunch", "general_frequency": "every day", "time": "twelve thirty"}}}
+{"id": "12963", "text": "what is the definition of forensic", "target": {"intent": "qa_definition", "slots": {"definition_word": "forensic"}}}
+{"id": "10256", "text": "launch super mario", "target": {"intent": "play_game", "slots": {"game_name": "super mario"}}}
+{"id": "14154", "text": "africa info", "target": {"intent": "qa_factoid", "slots": {"place_name": "africa"}}}
+{"id": "1794", "text": "will trump visit russia anytime soon", "target": {"intent": "news_query", "slots": {"person": "trump", "place_name": "russia"}}}
+{"id": "6325", "text": "my day was extremely hard", "target": {"intent": "general_quirky", "slots": {}}}
+{"id": "3841", "text": "activate the roomba", "target": {"intent": "iot_cleaning", "slots": {"device_type": "roomba"}}}
+{"id": "12606", "text": "i need to get a ticket via train to orlando from hwood", "target": {"intent": "transport_ticket", "slots": {"transport_type": "train", "place_name": "orlando from hwood"}}}
+{"id": "171", "text": "olly do they deliver home", "target": {"intent": "takeaway_query", "slots": {"order_type": "deliver"}}}
+{"id": "6672", "text": "go on sweet talk me", "target": {"intent": "general_quirky", "slots": {}}}
+{"id": "1098", "text": "what day of the week does the fifteenth of march fall on", "target": {"intent": "datetime_query", "slots": {"date": "fifteenth of march"}}}
+{"id": "14661", "text": "what is the birth year of barack obama", "target": {"intent": "qa_factoid", "slots": {"person": "barack obama"}}}
+{"id": "437", "text": "open bad religion folder", "target": {"intent": "play_music", "slots": {"artist_name": "bad religion"}}}
+{"id": "6789", "text": "set meeting with joanna on saturday four p. m.", "target": {"intent": "calendar_set", "slots": {"person": "joanna", "date": "saturday", "time": "four p. m."}}}
+{"id": "9895", "text": "keep playing secret garden", "target": {"intent": "play_audiobook", "slots": {"player_setting": "keep playing", "audiobook_name": "secret garden"}}}
+{"id": "1452", "text": "remove the alarm for tomorrow", "target": {"intent": "alarm_remove", "slots": {"date": "tomorrow"}}}
+{"id": "124", "text": "olly tell me a joke", "target": {"intent": "general_joke", "slots": {}}}
+{"id": "2717", "text": "i want to hear purple haze", "target": {"intent": "play_music", "slots": {"song_name": "purple haze"}}}
+{"id": "9851", "text": "resume joes book from where i left off last time", "target": {"intent": "play_audiobook", "slots": {"player_setting": "resume", "audiobook_name": "joes book"}}}
+{"id": "4227", "text": "is there any rain in the forecast for the next week", "target": {"intent": "weather_query", "slots": {"weather_descriptor": "rain", "date": "next week"}}}
+{"id": "1830", "text": "i want to eat some spicy thing", "target": {"intent": "takeaway_order", "slots": {"food_type": "spicy"}}}
+{"id": "12608", "text": "schedule taxi pickup for monday at noon", "target": {"intent": "transport_taxi", "slots": {"transport_type": "taxi", "date": "monday", "timeofday": "noon"}}}
+{"id": "14891", "text": "in which field does that person excel in", "target": {"intent": "qa_factoid", "slots": {}}}
+{"id": "15700", "text": "expired products in recent market", "target": {"intent": "social_post", "slots": {}}}
+{"id": "9986", "text": "boiling", "target": {"intent": "cooking_recipe", "slots": {"cooking_type": "boiling"}}}
+{"id": "4400", "text": "what are the trending articles on the new york times", "target": {"intent": "news_query", "slots": {"media_type": "new york times"}}}
+{"id": "3809", "text": "slow down the speaker volume", "target": {"intent": "audio_volume_down", "slots": {}}}
+{"id": "6178", "text": "should i wear a jacket", "target": {"intent": "weather_query", "slots": {"weather_descriptor": "jacket"}}}
+{"id": "6282", "text": "lets have a chat", "target": {"intent": "general_quirky", "slots": {}}}
+{"id": "4244", "text": "olly turn on the coffee machine to make me some coffee", "target": {"intent": "iot_coffee", "slots": {"device_type": "coffee machine"}}}
+{"id": "15216", "text": "tweet something for me", "target": {"intent": "social_post", "slots": {"media_type": "tweet"}}}
+{"id": "15777", "text": "tell me if i have new emails", "target": {"intent": "email_query", "slots": {}}}
+{"id": "5122", "text": "check if default alarm is set", "target": {"intent": "alarm_query", "slots": {}}}
+{"id": "11154", "text": "check recent to do list", "target": {"intent": "lists_query", "slots": {"list_name": "to do"}}}
+{"id": "6801", "text": "show me my meetings this friday", "target": {"intent": "calendar_query", "slots": {"date": "this friday"}}}
+{"id": "13693", "text": "where is the prime meridian", "target": {"intent": "qa_factoid", "slots": {}}}
+{"id": "14253", "text": "how much is amazon stock", "target": {"intent": "qa_stock", "slots": {"business_name": "amazon"}}}

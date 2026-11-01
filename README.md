@@ -1,7 +1,18 @@
 # LoRA vs prompting: when does fine-tuning beat a good prompt?
 
-> Status: **code ready, not run yet.** The hypotheses below were written before any run and are
-> not edited afterwards.
+> Status: **run on 31 October and 1 November 2026. Full write-up in [RESULTS.md](RESULTS.md).**
+> The hypotheses below were written before the run and are not edited afterwards.
+
+## Headline result
+
+- With 100 labelled examples, few-shot prompting of Gemini 3.5 Flash-Lite won: 55% of records
+  exactly right against 32% for Qwen2.5-1.5B fine-tuned with LoRA.
+- With 2,000 examples, the fine-tuned 1.5B model caught up on exact records (64% vs 66%, within
+  noise) and intent accuracy, while staying 5 points behind on slot F1.
+- On the same small model, LoRA beat few-shot prompting by 12 to 15 points from 500 examples up.
+- Format was never the bottleneck (valid JSON 99.7–100% everywhere); with 100 examples the
+  fine-tuned model invented labels it had never seen.
+- The fine-tuned model reads 31 tokens per document against about 900 for the prompts.
 
 Teams often ask whether to fine-tune a small model or prompt a large one. This project answers it for
 one concrete task, structured extraction, and finds how many training examples it takes for a
